@@ -1,0 +1,9 @@
+import MatrixSpencer.KSFullRuntimePolynomialCertificate
+
+#print MatrixSpencer.KSFullPolynomialExplicit.algorithm
+#print MatrixSpencer.KSFullRuntimePolynomialCertificate.totalCost_polynomial
+
+#print axioms MatrixSpencer.KSFullPolynomialExplicit.algorithm
+#print axioms MatrixSpencer.KSFullPolynomialExplicit.execution_result
+#print axioms MatrixSpencer.KSFullPolynomialExplicit.exists_execution_bounded
+#print axioms MatrixSpencer.KSFullRuntimePolynomialCertificate.totalCost_polynomial

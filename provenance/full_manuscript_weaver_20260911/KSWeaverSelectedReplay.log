@@ -1,0 +1,8 @@
+REPLAYED MatrixSpencer.KSManuscriptWeaverTools: 25 local declarations loaded; safe nonpartial declarations checked against imports
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSManuscriptWeaverTools: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptWeaver: 15 local declarations loaded; safe nonpartial declarations checked against imports
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptWeaver: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthManuscriptWeaver: 15 local declarations loaded; safe nonpartial declarations checked against imports
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthManuscriptWeaver: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptWalkBudget: 2 local declarations loaded; safe nonpartial declarations checked against imports
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptWalkBudget: only allowed standard dependencies across all local declarations

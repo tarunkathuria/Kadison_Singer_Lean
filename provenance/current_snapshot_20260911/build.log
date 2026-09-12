@@ -1,0 +1,2356 @@
+ℹ [3192/3286] Replayed MatrixSpencer.KSRayleighAccuracy
+info: MatrixSpencer/KSRayleighAccuracy.lean:125:0: 'MatrixSpencer.KSRayleighAccuracy.approximate_minimum_Rayleigh_accuracy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: MatrixSpencer/KSRayleighAccuracy.lean:126:0: 'MatrixSpencer.KSRayleighAccuracy.approximate_minimizer_of_nonpositive_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+⚠ [3311/3655] Replayed MatrixSpencer.KSHermitianDirections
+warning: MatrixSpencer/KSHermitianDirections.lean:24:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSHermitianDirections.realDirection_isHermitian`:
+  [Fintype n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSHermitianDirections.lean:30:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSHermitianDirections.imagDirection_isHermitian`:
+  [Fintype n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSHermitianDirections.lean:41:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSHermitianDirections.realDirection_swap`:
+  [Fintype n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSHermitianDirections.lean:45:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSHermitianDirections.imagDirection_swap`:
+  [Fintype n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSHermitianDirections.lean:54:49: This simp argument is unused:
+  Complex.mul_re
+
+Hint: Omit it from the simp argument list.
+  simp [realTrace, Matrix.trace_mul_single, hji,̵ ̵C̵o̵m̵p̵l̵e̵x̵.̵m̵u̵l̵_̵r̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/KSHermitianDirections.lean:55:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MatrixSpencer/KSHermitianDirections.lean:62:49: This simp argument is unused:
+  Complex.mul_re
+
+Hint: Omit it from the simp argument list.
+  simp [realTrace, Matrix.trace_mul_single, hji,̵ ̵C̵o̵m̵p̵l̵e̵x̵.̵m̵u̵l̵_̵r̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/KSHermitianDirections.lean:63:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3319/3655] Replayed MatrixSpencer.KSHermitianGradientReport
+warning: MatrixSpencer/KSHermitianGradientReport.lean:34:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSHermitianGradientReport.hermitianize_isHermitian`:
+  [Fintype n]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSHermitianGradientReport.lean:43:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSHermitianGradientReport.hermitianize_entry_error`:
+  [Fintype n]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSHermitianGradientReport.lean:61:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSHermitianGradientReport.energy_le_of_entry_error`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3324/3655] Replayed MatrixSpencer.KSRankOne
+warning: MatrixSpencer/KSRankOne.lean:26:8: automatically included section variable(s) unused in theorem `MatrixSpencer.KSRankOne.atom_apply`:
+  [Fintype n]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSRankOne.lean:29:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSRankOne.atom_posSemidef`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSRankOne.lean:35:8: automatically included section variable(s) unused in theorem `MatrixSpencer.KSRankOne.atom_zero`:
+  [Fintype n]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSRankOne.lean:39:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSRankOne.trace_atom`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSRankOne.lean:70:4: Try `simp at hp` instead of `simpa using hp`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: MatrixSpencer/KSRankOne.lean:76:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSRankOne.atom_sandwich`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSRankOne.lean:86:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSRankOne.trace_eq_realTrace_of_isHermitian`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSRankOne.lean:93:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSRankOne.trace_mul_eq_realTrace`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3330/3655] Replayed MatrixSpencer.KSSafeRetirement
+warning: MatrixSpencer/KSSafeRetirement.lean:38:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSafeRetirement.realTrace_sourceAdjoint`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSSafeRetirement.lean:50:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSafeRetirement.realTrace_embedded_mul`:
+  [DecidableEq n]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSSafeRetirement.lean:74:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSafeRetirement.supportedGradient_isHermitian`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3335/3655] Replayed MatrixSpencer.KSGradientQueryGeometry
+warning: MatrixSpencer/KSGradientQueryGeometry.lean:60:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSGradientQueryGeometry.query_trace_le_two`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3340/3655] Replayed MatrixSpencer.KSNumericalGradient
+warning: MatrixSpencer/KSNumericalGradient.lean:145:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSNumericalGradient.report_isHermitian`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3344/3655] Replayed MatrixSpencer.KSNumericalDensityRun
+warning: MatrixSpencer/KSNumericalDensityRun.lean:46:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSNumericalDensityRun.update_feasible`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3346/3655] Replayed MatrixSpencer.KSOwnerRetirement
+warning: MatrixSpencer/KSOwnerRetirement.lean:16:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSOwnerRetirement.complex_mulVec_zero_of_le`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSOwnerRetirement.lean:49:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSOwnerRetirement.sourceAdjoint_covarianceKraus`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3350/3655] Replayed MatrixSpencer.KSSpinSource
+warning: MatrixSpencer/KSSpinSource.lean:32:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSpinSource.doubled_isHermitian`:
+  [Fintype n]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSSpinSource.lean:48:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSpinSource.pauli_average`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSSpinSource.lean:59:66: This simp argument is unused:
+  Matrix.neg_apply
+
+Hint: Omit it from the simp argument list.
+  simp [Matrix.fromBlocks, Matrix.add_apply, Matrix.smul_apply, M̵a̵t̵r̵i̵x̵.̵n̵e̵g̵_̵a̵p̵p̵l̵y̵,̵smul_eq_mul, Matrix.mul_add,
+  ̲  ̲ ̲ ̲ ̲ ̲Matrix.add_mul, Complex.I_mul_I]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/KSSpinSource.lean:62:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSpinSource.doubled_trace_mul`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSSpinSource.lean:85:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSpinSource.family_isHermitian`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSSpinSource.lean:93:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSpinSource.source_eq_pauli_sum`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3352/3655] Replayed MatrixSpencer.KSInitialBounds
+warning: MatrixSpencer/KSInitialBounds.lean:17:0: automatically included section variable(s) unused in theorem `MatrixSpencer.ks_parseval_square_sum_le`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSInitialBounds.lean:34:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSpinSource.doubled_smul`:
+  [Fintype n]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSInitialBounds.lean:37:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSpinSource.doubled_sum`:
+  [Fintype n]
+  [DecidableEq ι]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] [DecidableEq ι] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSInitialBounds.lean:41:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSpinSource.doubled_one`:
+  [Fintype n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSInitialBounds.lean:69:0: automatically included section variable(s) unused in theorem `MatrixSpencer.ksRegularizerScale_pos`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSInitialBounds.lean:74:0: automatically included section variable(s) unused in theorem `MatrixSpencer.ksRegularizerScale_budget`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3353/3655] Replayed MatrixSpencer.KSIndependentSource
+warning: MatrixSpencer/KSIndependentSource.lean:19:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSIndependentSource.family_isHermitian`:
+  [Fintype ι]
+  [Fintype n]
+  [DecidableEq ι]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [Fintype n] [DecidableEq ι] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSIndependentSource.lean:29:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSIndependentSource.source_eq_sum`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3354/3655] Replayed MatrixSpencer.KSSignSymmetry
+warning: MatrixSpencer/KSSignSymmetry.lean:16:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSignSymmetry.conjugate_posSemidef`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSSignSymmetry.lean:56:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSignSymmetry.source_conjugate`:
+  [DecidableEq ι]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSSignSymmetry.lean:115:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSignSymmetry.signMatrix_isHermitian`:
+  [Fintype n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSSignSymmetry.lean:131:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSignSymmetry.signMatrix_commute_independent`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3357/3655] Replayed MatrixSpencer.KSCommonSource
+warning: MatrixSpencer/KSCommonSource.lean:26:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSCommonSource.family_isHermitian`:
+  [Fintype ι]
+  [Fintype n]
+  [DecidableEq ι]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [Fintype n] [DecidableEq ι] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSCommonSource.lean:29:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSCommonSource.source_eq_sum`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3359/3655] Replayed MatrixSpencer.KSCompactMinimum
+warning: MatrixSpencer/KSCompactMinimum.lean:49:0: automatically included section variable(s) unused in theorem `MatrixSpencer.ks_exists_minimum_maximal_rank`:
+  [TopologicalSpace X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3360/3655] Replayed MatrixSpencer.KSEndpointCube
+warning: MatrixSpencer/KSEndpointCube.lean:97:9: `mul_le_mul_left` has been deprecated: Use `mul_le_mul_iff_right₀` instead
+⚠ [3361/3655] Replayed MatrixSpencer.KSPotentialModels
+warning: MatrixSpencer/KSPotentialModels.lean:42:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSPotentialModels.center_isHermitian`:
+  [Fintype n]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSPotentialModels.lean:79:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSPotentialModels.continuous_signed_center`:
+  [Fintype n]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3363/3655] Replayed MatrixSpencer.KSEndpointRetirement
+warning: MatrixSpencer/KSEndpointRetirement.lean:31:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEndpointRetirement.leftDensity_atom`:
+  [Fintype n]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEndpointRetirement.lean:37:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEndpointRetirement.rightDensity_atom`:
+  [Fintype n]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEndpointRetirement.lean:140:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEndpointRetirement.update_zero_nonneg`:
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEndpointRetirement.lean:178:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MatrixSpencer/KSEndpointRetirement.lean:178:61: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MatrixSpencer/KSEndpointRetirement.lean:204:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MatrixSpencer/KSEndpointRetirement.lean:204:54: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3364/3655] Replayed MatrixSpencer.KSStateRetirement
+warning: MatrixSpencer/KSStateRetirement.lean:14:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSPotentialModels.center_update`:
+  [Fintype n]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSStateRetirement.lean:33:6: This simp argument is unused:
+  smul_add
+
+Hint: Omit it from the simp argument list.
+  simp [signedLift, Matrix.fromBlocks, Matrix.add_apply, Matrix.smul_apply, Matrix.neg_apply,
+        smul_a̵d̵d̵,̵ ̵s̵m̵u̵l̵_̵neg]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/KSStateRetirement.lean:33:26: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MatrixSpencer/KSStateRetirement.lean:181:11: `mul_lt_mul_left` has been deprecated: Use `mul_lt_mul_iff_right₀` instead
+⚠ [3365/3655] Replayed MatrixSpencer.KSDebitBudget
+warning: MatrixSpencer/KSDebitBudget.lean:24:5: unused variable `hi`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: MatrixSpencer/KSDebitBudget.lean:32:20: This simp argument is unused:
+  Function.update_of_ne hj
+
+Hint: Omit it from the simp argument list.
+  simp [ksFrozen, F̵u̵n̵c̵t̵i̵o̵n̵.̵u̵p̵d̵a̵t̵e̵_̵o̵f̵_̵n̵e̵ ̵h̵j̵,̵ ̵hj]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/KSDebitBudget.lean:40:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSDebitBudget.debit_update_endpoint`:
+  [Fintype n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSDebitBudget.lean:49:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSDebitBudget.debit_zero`:
+  [Fintype n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSDebitBudget.lean:55:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSDebitBudget.sum_frozen_posSemidef`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSDebitBudget.lean:73:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSDebitBudget.smul_le_smul_nonneg`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSDebitBudget.lean:139:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSDebitBudget.debit_eq_of_same_frozen`:
+  [Fintype n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3366/3655] Replayed MatrixSpencer.KSDebitPotential
+warning: MatrixSpencer/KSDebitPotential.lean:20:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSDebitPotential.ownerObjective_sub_scalar`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSDebitPotential.lean:41:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSDebitPotential.center_add_scalar_debit`:
+  [Fintype n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3367/3655] Replayed MatrixSpencer.KSCubePreparation
+warning: MatrixSpencer/KSCubePreparation.lean:55:53: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MatrixSpencer/KSCubePreparation.lean:57:53: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MatrixSpencer/KSCubePreparation.lean:94:55: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3368/3655] Replayed MatrixSpencer.KSEighthRetirementLoop
+warning: MatrixSpencer/KSEighthRetirementLoop.lean:146:53: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3374/3655] Replayed MatrixSpencer.CovarianceMovement
+warning: MatrixSpencer/CovarianceMovement.lean:18:0: automatically included section variable(s) unused in theorem `MatrixSpencer.covarianceMovement_lower`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/CovarianceMovement.lean:22:21: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MatrixSpencer/CovarianceMovement.lean:36:0: automatically included section variable(s) unused in theorem `MatrixSpencer.covarianceMovement_trace`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/CovarianceMovement.lean:39:0: automatically included section variable(s) unused in theorem `MatrixSpencer.realTrace_rankOne_mul`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3375/3655] Replayed MatrixSpencer.PositiveCovarianceSampler
+warning: MatrixSpencer/PositiveCovarianceSampler.lean:50:2: Try `simp at hn` instead of `simpa using hn`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [3384/3655] Replayed MatrixSpencer.KSSpinChosenRetirement
+warning: MatrixSpencer/KSSpinChosenRetirement.lean:62:25: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3390/3655] Replayed MatrixSpencer.KSFisher
+warning: MatrixSpencer/KSFisher.lean:31:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSFisher.synthesis_isHermitian`:
+  [Fintype n]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSFisher.lean:61:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSFisher.gram_mulVec`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSFisher.lean:70:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSFisher.physicalGram_quadratic`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSFisher.lean:76:20: This simp argument is unused:
+  Matrix.mul_sum
+
+Hint: Omit it from the simp argument list.
+  simp only [synthesis, Matrix.sum_mul, M̵a̵t̵r̵i̵x̵.̵m̵u̵l̵_̵s̵u̵m̵,̵ ̵Matrix.smul_mul, Matrix.mul_smul, realTrace_sum,
+  ̲  ̲ ̲ ̲realTrace_smul, Finset.mul_sum, Matrix.mul_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/KSFisher.lean:85:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSFisher.gram_isHermitian`:
+  [Fintype ι]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSFisher.lean:91:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSFisher.physicalGram_isHermitian`:
+  [Fintype ι]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSFisher.lean:160:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSFisher.spinGram_mulVec`:
+  [DecidableEq n]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSFisher.lean:169:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSFisher.spinGram_isHermitian`:
+  [Fintype ι]
+  [DecidableEq n]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq n] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSFisher.lean:183:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSFisher.spin_synthesis_isHermitian`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSFisher.lean:194:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSFisher.spin_synthesis_square`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSFisher.lean:275:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: MatrixSpencer/KSFisher.lean:275:10: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: MatrixSpencer/KSFisher.lean:294:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSFisher.gram_posSemidef`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSFisher.lean:304:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSFisher.gram_fixed_vector`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSFisher.lean:328:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSFisher.prepare_synthesis`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3398/3655] Replayed MatrixSpencer.KSBalancedSpin
+warning: MatrixSpencer/KSBalancedSpin.lean:51:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSBalancedSpin.atom_posSemidef`:
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSBalancedSpin.lean:58:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSBalancedSpin.trace_atom`:
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSBalancedSpin.lean:82:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSBalancedSpin.mass_eq`:
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSBalancedSpin.lean:132:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSBalancedSpin.atom_commute`:
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSBalancedSpin.lean:250:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSBalancedSpin.synthesis_add`:
+  [Fintype n]
+  [DecidableEq n]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] [DecidableEq n] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSBalancedSpin.lean:254:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSBalancedSpin.synthesis_sub`:
+  [Fintype n]
+  [DecidableEq n]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] [DecidableEq n] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSBalancedSpin.lean:258:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSBalancedSpin.prepare_add`:
+  [DecidableEq n]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSBalancedSpin.lean:263:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSBalancedSpin.prepare_smul`:
+  [DecidableEq n]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSBalancedSpin.lean:282:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSBalancedSpin.legal_cancellation`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSBalancedSpin.lean:438:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSBalancedSpin.scaled_transport_probe`:
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3400/3655] Replayed MatrixSpencer.KSSpinDrift
+warning: MatrixSpencer/KSSpinDrift.lean:24:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSpinDrift.hsSq_eq_sum`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSSpinDrift.lean:29:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSpinDrift.trace_transpose_product`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSSpinDrift.lean:277:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSpinDrift.hsSq_sub_le`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSSpinDrift.lean:541:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSpinDrift.spin_atom_isHermitian`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSSpinDrift.lean:594:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSpinDrift.jointFeatures_isHermitian`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSSpinDrift.lean:603:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSpinDrift.weighted_scaled_energy`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSSpinDrift.lean:613:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSpinDrift.joint_response_trace_le`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSSpinDrift.lean:659:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSpinDrift.jointFeatures_synthesis`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSSpinDrift.lean:719:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSpinDrift.fisherWeight_pos`:
+  [Fintype ι]
+  [DecidableEq ι]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSSpinDrift.lean:781:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSpinDrift.fisherWeight_mul_trace_sq`:
+  [Fintype ι]
+  [DecidableEq ι]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSSpinDrift.lean:787:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: MatrixSpencer/KSSpinDrift.lean:787:6: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [3401/3655] Replayed MatrixSpencer.KSSpinActualDescent
+warning: MatrixSpencer/KSSpinActualDescent.lean:100:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [3402/3655] Replayed MatrixSpencer.KSSupportedCenterCurve
+warning: MatrixSpencer/KSSupportedCenterCurve.lean:25:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSupportedCenterCurve.embedding_coe`:
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSSupportedCenterCurve.lean:30:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSupportedCenterCurve.transportLine_isHermitian`:
+  [Fintype m]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype m] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSSupportedCenterCurve.lean:96:23: This simp argument is unused:
+  Matrix.mul_add
+
+Hint: Omit it from the simp argument list.
+  simp only [source, M̵a̵t̵r̵i̵x̵.̵m̵u̵l̵_̵a̵d̵d̵,̵ ̵Matrix.add_mul, Matrix.mul_sum, Matrix.sum_mul, Matrix.mul_smul,
+  ̲  ̲ ̲ ̲ ̲ ̲Matrix.smul_mul, ← Finset.sum_add_distrib, ← add_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/KSSupportedCenterCurve.lean:96:39: This simp argument is unused:
+  Matrix.add_mul
+
+Hint: Omit it from the simp argument list.
+  simp only [source, Matrix.mul_add, M̵a̵t̵r̵i̵x̵.̵a̵d̵d̵_̵m̵u̵l̵,̵ ̵Matrix.mul_sum, Matrix.sum_mul, Matrix.mul_smul,
+  ̲  ̲ ̲ ̲ ̲ ̲Matrix.smul_mul, ← Finset.sum_add_distrib, ← add_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3404/3655] Replayed MatrixSpencer.KSSupportSymmetry
+warning: MatrixSpencer/KSSupportSymmetry.lean:16:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSupportSymmetry.compress_isHermitian`:
+  [Fintype m]
+  [DecidableEq n]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype m] [DecidableEq n] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSSupportSymmetry.lean:21:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSupportSymmetry.compress_posSemidef`:
+  [DecidableEq n]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSSupportSymmetry.lean:24:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSupportSymmetry.compress_posDef`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSSupportSymmetry.lean:28:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSupportSymmetry.compression_nonzero`:
+  [DecidableEq n]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSSupportSymmetry.lean:34:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSupportSymmetry.intertwine`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3405/3655] Replayed MatrixSpencer.KSSpinCompression
+warning: MatrixSpencer/KSSpinCompression.lean:28:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSpinCompression.embedding_isometry`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSSpinCompression.lean:51:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSpinCompression.compressedSign_isHermitian`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSSpinCompression.lean:62:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSpinCompression.compressedAtom_posSemidef`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSSpinCompression.lean:150:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSpinCompression.transport_probe`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3406/3655] Replayed MatrixSpencer.KSSpinLocalState
+warning: MatrixSpencer/KSSpinLocalState.lean:33:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSpinLocalState.owners_pos`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSSpinLocalState.lean:39:8: automatically included section variable(s) unused in theorem `MatrixSpencer.KSSpinLocalState.ownerCurve_zero`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3409/3655] Replayed MatrixSpencer.KSDebitPreparedMargin
+warning: MatrixSpencer/KSDebitPreparedMargin.lean:30:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSDebitPreparedMargin.center_update_debit`:
+  [Fintype n]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSDebitPreparedMargin.lean:36:6: This simp argument is unused:
+  smul_add
+
+Hint: Omit it from the simp argument list.
+  simp [KSDebitCenter.center, signedLift, KSSpinSource.doubled, Matrix.fromBlocks,
+  ̵  ̵ ̵ ̵ ̵ ̵smul_a̵d̵d̵,̵ ̵s̵m̵u̵l̵_̵neg]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3421/3655] Replayed MatrixSpencer.KSDebitNumericalController
+warning: MatrixSpencer/KSDebitNumericalController.lean:29:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSDebitNumericalController.numericalDirection_norm`:
+  [Nonempty (Fin d)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty (Fin d)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSDebitNumericalController.lean:35:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSDebitNumericalController.numericalDirection_frozen`:
+  [Nonempty (Fin d)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty (Fin d)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3427/3655] Replayed MatrixSpencer.KSSpinLiveSource
+warning: MatrixSpencer/KSSpinLiveSource.lean:66:6: This simp argument is unused:
+  smul_add
+
+Hint: Omit it from the simp argument list.
+  simp [signedLift, Matrix.fromBlocks, Matrix.add_apply, Matrix.smul_apply, Matrix.neg_apply,
+        smul_a̵d̵d̵,̵ ̵s̵m̵u̵l̵_̵neg]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/KSSpinLiveSource.lean:66:26: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3429/3655] Replayed MatrixSpencer.KSDebitPreparedCurvature
+warning: MatrixSpencer/KSDebitPreparedCurvature.lean:31:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSDebitPreparedCurvature.center_path_fixed_debit`:
+  [Fintype n]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3434/3655] Replayed MatrixSpencer.KSDebitNumericalDrift
+warning: MatrixSpencer/KSDebitNumericalDrift.lean:60:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSDebitNumericalDrift.movementCurve_eq_proposal`:
+  [Nonempty (Fin d)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty (Fin d)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3448/3655] Replayed MatrixSpencer.KSComplexRelativeSource
+warning: MatrixSpencer/KSComplexRelativeSource.lean:152:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSComplexRelativeSource.whitened_source_contraction`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSComplexRelativeSource.lean:163:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSComplexRelativeSource.whitened_source_perturbation`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3451/3655] Replayed MatrixSpencer.KSComplexSpinSource
+warning: MatrixSpencer/KSComplexSpinSource.lean:29:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSComplexSpinSource.atom_posSemidef`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSComplexSpinSource.lean:45:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSComplexSpinSource.contDiff_source`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSComplexSpinSource.lean:56:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSComplexSpinSource.source_shift`:
+  [DecidableEq ι]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3455/3655] Replayed MatrixSpencer.KSComplexPolynomialBounds
+warning: MatrixSpencer/KSComplexPolynomialBounds.lean:28:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSComplexPolynomialBounds.sourceBudget_pos`:
+  [DecidableEq ι]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSComplexPolynomialBounds.lean:33:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSComplexPolynomialBounds.slopeBudget_pos`:
+  [DecidableEq ι]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSComplexPolynomialBounds.lean:83:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSComplexPolynomialBounds.slope_norm_le`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSComplexPolynomialBounds.lean:107:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSComplexPolynomialBounds.sourceBudget_restrict`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSComplexPolynomialBounds.lean:117:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSComplexPolynomialBounds.slopeBudget_restrict`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3456/3655] Replayed MatrixSpencer.KSJointBoundParameters
+warning: MatrixSpencer/KSJointBoundParameters.lean:47:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSJointBoundParameters.radius_pos`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSJointBoundParameters.lean:52:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSJointBoundParameters.radius_le_one`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3457/3655] Replayed MatrixSpencer.KSCauchyDerivatives
+warning: MatrixSpencer/KSCauchyDerivatives.lean:65:21: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3466/3655] Replayed MatrixSpencer.KSRationalTraceRoots
+warning: MatrixSpencer/KSRationalTraceRoots.lean:54:59: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3470/3655] Replayed MatrixSpencer.KSCompactTraceRoots
+warning: MatrixSpencer/KSCompactTraceRoots.lean:34:17: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [3475/3655] Replayed MatrixSpencer.KSInputJointBounds
+warning: MatrixSpencer/KSInputJointBounds.lean:72:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSInputJointBounds.curveH_eq_path_center`:
+  [Nonempty (Fin d)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty (Fin d)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3496/3655] Replayed MatrixSpencer.KSFullManuscriptRegularizationBias
+warning: MatrixSpencer/KSFullManuscriptRegularizationBias.lean:115:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3502/3655] Replayed MatrixSpencer.KSFullManuscriptStrictFeasible
+warning: MatrixSpencer/KSFullManuscriptStrictFeasible.lean:25:17: This simp argument is unused:
+  realTrace_smul
+
+Hint: Omit it from the simp argument list.
+  simp [density, r̵e̵a̵l̵T̵r̵a̵c̵e̵_̵s̵m̵u̵l̵,̵ ̵realTrace, Matrix.trace, hn]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: MatrixSpencer/KSFullManuscriptStrictFeasible.lean:60:45: Try this:
+  ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: MatrixSpencer/KSFullManuscriptStrictFeasible.lean:58:6: This simp argument is unused:
+  Matrix.fromRows_mul_fromCols
+
+Hint: Omit it from the simp argument list.
+  simp [W, density, rootCenter, rootMargin,
+        Matrix.conjTranspose_fromRows_eq_fromCols_conjTranspose, M̵a̵t̵r̵i̵x̵.̵f̵r̵o̵m̵R̵o̵w̵s̵_̵m̵u̵l̵_̵f̵r̵o̵m̵C̵o̵l̵s̵,̵ ̵Matrix.smul_mul, Matrix.mul_smul,
+        Matrix.one_apply, smul_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/KSFullManuscriptStrictFeasible.lean:58:36: This simp argument is unused:
+  Matrix.smul_mul
+
+Hint: Omit it from the simp argument list.
+  simp [W, density, rootCenter, rootMargin,
+        Matrix.conjTranspose_fromRows_eq_fromCols_conjTranspose, Matrix.fromRows_mul_fromCols,
+  ̲  ̲ ̲ ̲ ̲ ̲M̵a̵t̵r̵i̵x̵.̵s̵m̵u̵l̵_̵m̵u̵l̵,̵ ̵Matrix.mul_smul, Matrix.one_apply, smul_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/KSFullManuscriptStrictFeasible.lean:59:24: This simp argument is unused:
+  smul_smul
+
+Hint: Omit it from the simp argument list.
+  simp [W, density, rootCenter, rootMargin,
+        Matrix.conjTranspose_fromRows_eq_fromCols_conjTranspose, Matrix.fromRows_mul_fromCols,
+  ̲  ̲ ̲ ̲ ̲ ̲Matrix.smul_mul, Matrix.mul_smul, M̵a̵t̵r̵i̵x̵.̵o̵n̵e̵_̵a̵p̵p̵l̵y̵,̵ ̵s̵m̵u̵l̵_̵s̵m̵u̵l̵]̵M̲a̲t̲r̲i̲x̲.̲o̲n̲e̲_̲a̲p̲p̲l̲y̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/KSFullManuscriptStrictFeasible.lean:60:36: This simp argument is unused:
+  hec
+
+Hint: Omit it from the simp argument list.
+  simp_all ̵[̵h̵e̵c̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/KSFullManuscriptStrictFeasible.lean:60:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MatrixSpencer/KSFullManuscriptStrictFeasible.lean:64:28: unused variable `hd`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: MatrixSpencer/KSFullManuscriptStrictFeasible.lean:65:33: unused variable `hρ`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: MatrixSpencer/KSFullManuscriptStrictFeasible.lean:76:69: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3517/3655] Replayed MatrixSpencer.KSFullManuscriptDiagonalValue
+warning: MatrixSpencer/KSFullManuscriptDiagonalValue.lean:24:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSFullManuscriptDiagonalValue.source_eq`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3524/3655] Replayed MatrixSpencer.KSFullManuscriptController
+warning: MatrixSpencer/KSFullManuscriptController.lean:38:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSFullManuscriptController.liveDirection_norm`:
+  [Nonempty (Fin d)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty (Fin d)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSFullManuscriptController.lean:50:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSFullManuscriptController.numericalDirection_frozen`:
+  [Nonempty (Fin d)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty (Fin d)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3526/3655] Replayed MatrixSpencer.KSFullManuscriptTaylor
+warning: MatrixSpencer/KSFullManuscriptTaylor.lean:36:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSFullManuscriptTaylor.envelope_le`:
+  [Nonempty (Fin d)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty (Fin d)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSFullManuscriptTaylor.lean:43:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSFullManuscriptTaylor.scalar_le`:
+  [Nonempty (Fin d)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty (Fin d)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3527/3655] Replayed MatrixSpencer.KSFullManuscriptRayleigh
+warning: MatrixSpencer/KSFullManuscriptRayleigh.lean:30:36: This simp argument is unused:
+  diagonalMap_apply
+
+Hint: Omit it from the simp argument list.
+  simp only [KSRayleighAccuracy.realRayleigh_eq_quadratic, dotProduct, Matrix.mulVec,
+      Finset.mul_sum, Finset.sum_div, d̵i̵a̵g̵o̵n̵a̵l̵M̵a̵p̵_̵a̵p̵p̵l̵y̵,̵ ̵KSFullManuscriptHessian.weighted]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3528/3655] Replayed MatrixSpencer.KSFullManuscriptDrift
+warning: MatrixSpencer/KSFullManuscriptDrift.lean:34:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSFullManuscriptDrift.movement_eq`:
+  [Nonempty (Fin d)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty (Fin d)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3532/3655] Replayed MatrixSpencer.KSEighthInertia
+warning: MatrixSpencer/KSEighthInertia.lean:25:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthInertia.quadratic_congruence`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthInertia.lean:69:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthInertia.lowCoordinates_vanish`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthInertia.lean:74:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthInertia.lowCoordinates_dimension`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthInertia.lean:78:32: This simp argument is unused:
+  Module.finrank_self
+
+Hint: Omit it from the simp argument list.
+  simp only [Module.finrank_pi, M̵o̵d̵u̵l̵e̵.̵f̵i̵n̵r̵a̵n̵k̵_̵s̵e̵l̵f̵,̵ ̵Finset.sum_const, smul_eq_mul, Nat.mul_one,
+  ̲  ̲ ̲ ̲Fintype.card_coe] at hnull hr
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/KSEighthInertia.lean:78:53: This simp argument is unused:
+  Finset.sum_const
+
+Hint: Omit it from the simp argument list.
+  simp only [Module.finrank_pi, Module.finrank_self, F̵i̵n̵s̵e̵t̵.̵s̵u̵m̵_̵c̵o̵n̵s̵t̵,̵ ̵smul_eq_mul, Nat.mul_one,
+  ̲  ̲ ̲ ̲Fintype.card_coe] at hnull hr
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/KSEighthInertia.lean:78:71: This simp argument is unused:
+  smul_eq_mul
+
+Hint: Omit it from the simp argument list.
+  simp only [Module.finrank_pi, Module.finrank_self, Finset.sum_const, s̵m̵u̵l̵_̵e̵q̵_̵m̵u̵l̵,̵
+  ̵ ̵ ̵ ̵ ̵Nat.mul_one,
+  ̲  ̲ ̲ ̲Fintype.card_coe] at hnull hr
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/KSEighthInertia.lean:79:4: This simp argument is unused:
+  Nat.mul_one
+
+Hint: Omit it from the simp argument list.
+  simp only [Module.finrank_pi, Module.finrank_self, Finset.sum_const, smul_eq_mul,
+      N̵a̵t̵.̵m̵u̵l̵_̵o̵n̵e̵,̵ ̵Fintype.card_coe] at hnull hr
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/KSEighthInertia.lean:128:4: This simp argument is unused:
+  dotProduct_sub
+
+Hint: Omit it from the simp argument list.
+  simp only [Matrix.sub_mulVec, Matrix.smul_mulVec, Matrix.one_mulVec, d̵o̵t̵P̵r̵o̵d̵u̵c̵t̵_̵s̵u̵b̵,̵ ̵dotProduct_smul, dotProduct,
+  ̲  ̲ ̲ ̲Matrix.mulVec_diagonal, Finset.mul_sum, ← Finset.sum_sub_distrib, Pi.sub_apply, Pi.smul_apply,
+  ̲  ̲ ̲ ̲smul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/KSEighthInertia.lean:128:20: This simp argument is unused:
+  dotProduct_smul
+
+Hint: Omit it from the simp argument list.
+  simp only [Matrix.sub_mulVec, Matrix.smul_mulVec, Matrix.one_mulVec,
+  ̵  ̵ ̵ ̵dotProduct_sub, dotProduct_̵s̵m̵u̵l̵,
+  ̲ d̵o̵t̵P̵r̵o̵d̵u̵c̵t̵,̵  ̲ ̲Matrix.mulVec_diagonal,
+  ̵  ̵ ̵ ̵Finset.mul_sum, ← Finset.sum_sub_distrib, Pi.sub_apply, Pi.smul_apply,
+  ̲  ̲ ̲ ̲smul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/KSEighthInertia.lean:129:4: This simp argument is unused:
+  Finset.mul_sum
+
+Hint: Omit it from the simp argument list.
+  simp only [Matrix.sub_mulVec, Matrix.smul_mulVec, Matrix.one_mulVec,
+  ̵  ̵ ̵ ̵dotProduct_sub,
+  ̲  ̲ ̲ ̲dotProduct_smul, dotProduct, Matrix.mulVec_diagonal,
+  ̵  ̵ ̵ ̵F̵i̵n̵s̵e̵t̵.̵m̵u̵l̵_̵s̵u̵m̵,̵ ̵← Finset.sum_sub_distrib, Pi.sub_apply,
+  ̲  ̲ ̲ ̲Pi.smul_apply, smul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/KSEighthInertia.lean:129:20: This simp argument is unused:
+  ← Finset.sum_sub_distrib
+
+Hint: Omit it from the simp argument list.
+  simp only [Matrix.sub_mulVec, Matrix.smul_mulVec, Matrix.one_mulVec, dotProduct_sub,
+  ̲  ̲ ̲ ̲dotProduct_smul, dotProduct, Matrix.mulVec_diagonal, Finset.mul_sum, ←̵ ̵F̵i̵n̵s̵e̵t̵.̵s̵u̵m̵_̵s̵u̵b̵_̵d̵i̵s̵t̵r̵i̵b̵,̵ ̵Pi.sub_apply,
+  ̲  ̲ ̲ ̲Pi.smul_apply, smul_eq_mul]
+
+Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/KSEighthInertia.lean:226:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthInertia.strictlyNegativeOn_smul`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthInertia.lean:245:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: MatrixSpencer/KSEighthInertia.lean:245:8: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: MatrixSpencer/KSEighthInertia.lean:254:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthInertia.intersect_negative_subspaces`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthInertia.lean:274:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthInertia.strictlyNegativeOn_of_le`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3533/3655] Replayed MatrixSpencer.KSEighthComparison
+warning: MatrixSpencer/KSEighthComparison.lean:30:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: MatrixSpencer/KSEighthComparison.lean:30:10: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: MatrixSpencer/KSEighthComparison.lean:39:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthComparison.weighted_fisher_transfer`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthComparison.lean:50:57: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: MatrixSpencer/KSEighthComparison.lean:50:25: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MatrixSpencer/KSEighthComparison.lean:50:57: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: MatrixSpencer/KSEighthComparison.lean:55:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthComparison.mixed_sum_bound`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthComparison.lean:75:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthComparison.weighted_defect_lower`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3534/3655] Replayed MatrixSpencer.KSEighthCompletion
+warning: MatrixSpencer/KSEighthCompletion.lean:74:50: This simp argument is unused:
+  Matrix.mulVec_diagonal
+
+Hint: Omit it from the simp argument list.
+  simp only [comparison, Matrix.sub_mulVec, Matrix.smul_mulVec, dotProduct_sub, dotProduct_smul,
+  ̲  ̲ ̲ ̲s̵m̵u̵l̵_̵e̵q̵_̵m̵u̵l̵,̵ ̵M̵a̵t̵r̵i̵x̵.̵m̵u̵l̵V̵e̵c̵_̵d̵i̵a̵g̵o̵n̵a̵l̵]̵s̲m̲u̲l̲_̲e̲q̲_̲m̲u̲l̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/KSEighthCompletion.lean:77:25: This simp argument is unused:
+  weight
+
+Hint: Omit it from the simp argument list.
+  simp only [dotProduct,̵ ̵w̵e̵i̵g̵h̵t̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3535/3655] Replayed MatrixSpencer.KSEighthBalanced
+warning: MatrixSpencer/KSEighthBalanced.lean:23:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthBalanced.atom_congruence`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthBalanced.lean:51:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthBalanced.owner_pos`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthBalanced.lean:57:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthBalanced.atoms_square`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthBalanced.lean:117:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthBalanced.sqrt_owner`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthBalanced.lean:117:32: unused variable `hx`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: MatrixSpencer/KSEighthBalanced.lean:136:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthBalanced.transportCompletion_isHermitian`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthBalanced.lean:234:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: MatrixSpencer/KSEighthBalanced.lean:234:8: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [3536/3655] Replayed MatrixSpencer.KSEighthSupport
+warning: MatrixSpencer/KSEighthSupport.lean:17:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthSupport.atom_supported`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthSupport.lean:41:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthSupport.compressed_atom`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthSupport.lean:57:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthSupport.source_lift`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthSupport.lean:93:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthSupport.rankOne_source_eq_kraus`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthSupport.lean:124:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthSupport.source_mono`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthSupport.lean:157:2: 'congr 1' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [3537/3655] Replayed MatrixSpencer.KSEighthBlocks
+warning: MatrixSpencer/KSEighthBlocks.lean:18:8: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthBlocks.blockDiag_toBlocks11`:
+  [Fintype n]
+  [Fintype m]
+  [DecidableEq n]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] [Fintype m] [DecidableEq n] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthBlocks.lean:21:8: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthBlocks.blockDiag_toBlocks22`:
+  [Fintype n]
+  [Fintype m]
+  [DecidableEq n]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] [Fintype m] [DecidableEq n] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthBlocks.lean:24:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthBlocks.blockDiag_isHermitian`:
+  [Fintype n]
+  [Fintype m]
+  [DecidableEq n]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] [Fintype m] [DecidableEq n] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthBlocks.lean:28:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthBlocks.blockDiag_mul`:
+  [DecidableEq n]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthBlocks.lean:33:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthBlocks.blockDiag_add`:
+  [Fintype n]
+  [Fintype m]
+  [DecidableEq n]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] [Fintype m] [DecidableEq n] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthBlocks.lean:38:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthBlocks.blockDiag_sub`:
+  [Fintype n]
+  [Fintype m]
+  [DecidableEq n]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] [Fintype m] [DecidableEq n] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthBlocks.lean:43:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthBlocks.blockDiag_smul`:
+  [Fintype n]
+  [Fintype m]
+  [DecidableEq n]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] [Fintype m] [DecidableEq n] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthBlocks.lean:48:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthBlocks.blockDiag_sum`:
+  [Fintype n]
+  [Fintype m]
+  [DecidableEq ι]
+  [DecidableEq n]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] [Fintype m] [DecidableEq ι] [DecidableEq n] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthBlocks.lean:53:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthBlocks.blockDiag_quadratic`:
+  [DecidableEq n]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthBlocks.lean:73:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthBlocks.principal_left_quadratic`:
+  [DecidableEq n]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthBlocks.lean:78:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthBlocks.principal_right_quadratic`:
+  [DecidableEq n]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthBlocks.lean:106:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthBlocks.doubledRect_isometry`:
+  [Fintype m]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype m] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthBlocks.lean:121:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthBlocks.realTrace_blockDiag`:
+  [DecidableEq n]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthBlocks.lean:130:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthBlocks.realTrace_mul_blockDiag`:
+  [DecidableEq n]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthBlocks.lean:138:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthBlocks.doubledRect_congruence`:
+  [Fintype n]
+  [DecidableEq n]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] [DecidableEq n] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthBlocks.lean:144:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthBlocks.doubledRect_compression`:
+  [Fintype m]
+  [DecidableEq n]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype m] [DecidableEq n] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthBlocks.lean:165:6: This simp argument is unused:
+  Matrix.add_apply
+
+Hint: Omit it from the simp argument list.
+  simp [blockDiag, Matrix.fromBlocks, Matrix.of_apply, Matrix.sum_apply, M̵a̵t̵r̵i̵x̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵,̵ ̵Matrix.smul_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/KSEighthBlocks.lean:184:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthBlocks.independent_weighted_sum`:
+  [Fintype n]
+  [DecidableEq ι]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] [DecidableEq ι] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthBlocks.lean:194:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthBlocks.realTrace_left_mul`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthBlocks.lean:200:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthBlocks.realTrace_right_mul`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthBlocks.lean:206:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthBlocks.realTrace_independent_mul`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3538/3655] Replayed MatrixSpencer.KSEighthActualState
+warning: MatrixSpencer/KSEighthActualState.lean:46:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthActualState.family_isHermitian`:
+  [Nonempty n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthActualState.lean:104:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthActualState.fullEmbedding_isometry`:
+  [DecidableEq ι]
+  [Nonempty n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] [Nonempty n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3539/3655] Replayed MatrixSpencer.KSEighthFullSupport
+warning: MatrixSpencer/KSEighthFullSupport.lean:49:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthFullSupport.independent_atom_reconstruct`:
+  [Nonempty n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthFullSupport.lean:63:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthFullSupport.independent_probe`:
+  [Nonempty n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3541/3655] Replayed MatrixSpencer.KSIndependentTransportCurve
+warning: MatrixSpencer/KSIndependentTransportCurve.lean:13:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSIndependentTransportCurve.source_eq_tracePrepare`:
+  [Nonempty n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSIndependentTransportCurve.lean:22:31: This simp argument is unused:
+  family
+
+Hint: Omit it from the simp argument list.
+  simp only [Fintype.sum_bool, f̵a̵m̵i̵l̵y̵,̵ ̵KSIndependentSource.family, if_true, Bool.false_eq_true,
+  ̵  ̵ ̵ ̵if_false,
+  ̲  ̲ ̲ ̲smul_add, smul_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/KSIndependentTransportCurve.lean:26:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSIndependentTransportCurve.sign_times_independent_sum`:
+  [DecidableEq ι]
+  [Nonempty n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] [Nonempty n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3542/3655] Replayed MatrixSpencer.KSEighthLocalState
+warning: MatrixSpencer/KSEighthLocalState.lean:22:8: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthLocalState.curveOwners_zero`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3543/3655] Replayed MatrixSpencer.KSEighthActualRetirement
+warning: MatrixSpencer/KSEighthActualRetirement.lean:71:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MatrixSpencer/KSEighthActualRetirement.lean:71:59: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3544/3655] Replayed MatrixSpencer.KSEighthLiveSource
+warning: MatrixSpencer/KSEighthLiveSource.lean:17:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthLiveSource.source_restrict`:
+  [Nonempty n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3557/3655] Replayed MatrixSpencer.KSFullConvexOracleController
+warning: MatrixSpencer/KSFullConvexOracleController.lean:35:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSFullConvexOracleController.liveDirection_norm`:
+  [Nonempty (Fin d)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty (Fin d)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSFullConvexOracleController.lean:47:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSFullConvexOracleController.numericalDirection_frozen`:
+  [Nonempty (Fin d)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty (Fin d)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3558/3655] Replayed MatrixSpencer.KSFullConvexOracleRayleigh
+warning: MatrixSpencer/KSFullConvexOracleRayleigh.lean:30:36: This simp argument is unused:
+  diagonalMap_apply
+
+Hint: Omit it from the simp argument list.
+  simp only [KSRayleighAccuracy.realRayleigh_eq_quadratic, dotProduct, Matrix.mulVec,
+      Finset.mul_sum, Finset.sum_div, d̵i̵a̵g̵o̵n̵a̵l̵M̵a̵p̵_̵a̵p̵p̵l̵y̵,̵ ̵KSFullManuscriptHessian.weighted]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3559/3655] Replayed MatrixSpencer.KSFullConvexOracleDrift
+warning: MatrixSpencer/KSFullConvexOracleDrift.lean:34:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSFullConvexOracleDrift.movement_eq`:
+  [Nonempty (Fin d)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty (Fin d)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3563/3655] Replayed MatrixSpencer.KSComplexTraceSource
+warning: MatrixSpencer/KSComplexTraceSource.lean:30:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSComplexTraceSource.contDiff_source`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSComplexTraceSource.lean:41:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSComplexTraceSource.source_shift`:
+  [DecidableEq ι]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSComplexTraceSource.lean:55:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSComplexTraceSource.basePiece_posSemidef`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSComplexTraceSource.lean:65:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSComplexTraceSource.source_zero_eq_pieces`:
+  [DecidableEq ι]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSComplexTraceSource.lean:80:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSComplexTraceSource.source_perturb_eq`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3564/3655] Replayed MatrixSpencer.KSComplexTraceDomain
+warning: MatrixSpencer/KSComplexTraceDomain.lean:38:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSComplexTraceDomain.whitener_congruence`:
+  [DecidableEq ι]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3565/3655] Replayed MatrixSpencer.KSComplexTraceObjective
+warning: MatrixSpencer/KSComplexTraceObjective.lean:34:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSComplexTraceObjective.complexCenter_shift`:
+  [Fintype n]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSComplexTraceObjective.lean:80:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSComplexTraceObjective.compressedSource_recenter`:
+  [Fintype m]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype m] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSComplexTraceObjective.lean:130:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSComplexTraceObjective.objective_real`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSComplexTraceObjective.lean:148:4: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  simp only [KSComplexTraceDomain.compressedDensity, KSSupportSymmetry.compress,̵
+  ̵ ̵ ̵ ̵ ̵P̵r̵o̵d̵.̵s̵n̵d̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3566/3655] Replayed MatrixSpencer.KSComplexTraceBounds
+warning: MatrixSpencer/KSComplexTraceBounds.lean:28:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSComplexTraceBounds.sourceBudget_pos`:
+  [DecidableEq ι]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSComplexTraceBounds.lean:33:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSComplexTraceBounds.slopeBudget_pos`:
+  [DecidableEq ι]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSComplexTraceBounds.lean:56:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSComplexTraceBounds.source_norm_le_budget`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSComplexTraceBounds.lean:84:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSComplexTraceBounds.slope_norm_le`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSComplexTraceBounds.lean:108:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSComplexTraceBounds.sourceBudget_restrict`:
+  [DecidableEq ι]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSComplexTraceBounds.lean:117:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSComplexTraceBounds.slopeBudget_restrict`:
+  [DecidableEq ι]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3567/3655] Replayed MatrixSpencer.KSComplexTraceValueBound
+warning: MatrixSpencer/KSComplexTraceValueBound.lean:26:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSComplexTraceValueBound.objective_norm_le`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3568/3655] Replayed MatrixSpencer.KSEighthTraceSource
+warning: MatrixSpencer/KSEighthTraceSource.lean:23:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthTraceSource.family_eq_atom`:
+  [Fintype ι]
+  [DecidableEq ι]
+  [Fintype n]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] [Fintype n] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthTraceSource.lean:60:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthTraceSource.frame_isometry`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthTraceSource.lean:63:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthTraceSource.support_card_le`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3569/3655] Replayed MatrixSpencer.KSEighthAnalyticCurve
+warning: MatrixSpencer/KSEighthAnalyticCurve.lean:44:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthAnalyticCurve.H_coe`:
+  [DecidableEq ι]
+  [Nonempty n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] [Nonempty n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthAnalyticCurve.lean:48:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthAnalyticCurve.contDiff_H`:
+  [DecidableEq ι]
+  [Nonempty n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] [Nonempty n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3570/3655] Replayed MatrixSpencer.KSEighthJointBoundPoint
+warning: MatrixSpencer/KSEighthJointBoundPoint.lean:28:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthJointBoundPoint.floor_pos`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthJointBoundPoint.lean:34:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthJointBoundPoint.valueCap_pos`:
+  [DecidableEq n]
+  [Nonempty n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] [Nonempty n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthJointBoundPoint.lean:48:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthJointBoundPoint.point_margin`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3571/3655] Replayed MatrixSpencer.KSEighthInputTaylorBound
+warning: MatrixSpencer/KSEighthInputTaylorBound.lean:31:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthInputTaylorBound.slopeBudget_pos`:
+  [Nonempty n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthInputTaylorBound.lean:43:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthInputTaylorBound.sourceCap_restrict`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthInputTaylorBound.lean:55:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthInputTaylorBound.slopeBudget_restrict`:
+  [Nonempty n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthInputTaylorBound.lean:60:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthInputTaylorBound.signed_center_norm_le`:
+  [Nonempty n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3572/3655] Replayed MatrixSpencer.KSManuscriptInputBudgetBounds
+warning: MatrixSpencer/KSManuscriptInputBudgetBounds.lean:22:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSManuscriptInputBudgetBounds.energy_fromBlocks`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSManuscriptInputBudgetBounds.lean:29:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSManuscriptInputBudgetBounds.energy_zero`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSManuscriptInputBudgetBounds.lean:32:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSManuscriptInputBudgetBounds.energy_neg`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSManuscriptInputBudgetBounds.lean:35:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSManuscriptInputBudgetBounds.energy_I_smul`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSManuscriptInputBudgetBounds.lean:69:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSManuscriptInputBudgetBounds.bound_le_two_of_energy_le_one`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSManuscriptInputBudgetBounds.lean:75:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSManuscriptInputBudgetBounds.bound_le_three_of_energy_le_two`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3574/3655] Replayed MatrixSpencer.KSEighthManuscriptLDL
+warning: MatrixSpencer/KSEighthManuscriptLDL.lean:34:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthManuscriptLDL.column_pairing`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthManuscriptLDL.lean:44:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthManuscriptLDL.schur_quadratic`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthManuscriptLDL.lean:67:58: This simp argument is unused:
+  Pi.smul_apply
+
+Hint: Omit it from the simp argument list.
+  simp only [star_trivial, Matrix.mulVec_sub, Matrix.mulVec_smul, dotProduct_sub, sub_dotProduct,
+  ̲  ̲ ̲ ̲smul_dotProduct, dotProduct_smul, Matrix.mulVec_single_one, single_dotProduct, one_mul,
+  ̲  ̲ ̲ ̲P̵i̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵,̵smul_eq_mul, Pi.single_apply, ite_true] at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/KSEighthManuscriptLDL.lean:68:17: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  simp only [star_trivial, Matrix.mulVec_sub, Matrix.mulVec_smul, dotProduct_sub, sub_dotProduct,
+  ̲  ̲ ̲ ̲smul_dotProduct, dotProduct_smul, Matrix.mulVec_single_one, single_dotProduct, one_mul,
+  ̲  ̲ ̲ ̲Pi.smul_apply, smul_eq_mul, P̵i̵.̵s̵i̵n̵g̵l̵e̵_̵a̵p̵p̵l̵y̵,̵ ̵ite_true] at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/KSEighthManuscriptLDL.lean:68:34: This simp argument is unused:
+  ite_true
+
+Hint: Omit it from the simp argument list.
+  simp only [star_trivial, Matrix.mulVec_sub, Matrix.mulVec_smul, dotProduct_sub, sub_dotProduct,
+  ̲  ̲ ̲ ̲smul_dotProduct, dotProduct_smul, Matrix.mulVec_single_one, single_dotProduct, one_mul,
+  ̲  ̲ ̲ ̲Pi.smul_apply, smul_eq_mul, P̵i̵.̵s̵i̵n̵g̵l̵e̵_̵a̵p̵p̵l̵y̵,̵ ̵i̵t̵e̵_̵t̵r̵u̵e̵]̵P̲i̲.̲s̲i̲n̲g̲l̲e̲_̲a̲p̲p̲l̲y̲]̲ at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/KSEighthManuscriptLDL.lean:71:20: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MatrixSpencer/KSEighthManuscriptLDL.lean:71:40: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MatrixSpencer/KSEighthManuscriptLDL.lean:89:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthManuscriptLDL.schur_preserves_zero_column`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/KSEighthManuscriptLDL.lean:188:15: This simp argument is unused:
+  Fin.val_mk
+
+Hint: Omit it from the simp argument list.
+  simp only [̵F̵i̵n̵.̵v̵a̵l̵_̵m̵k̵]̵ ̵at hr
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/KSEighthManuscriptLDL.lean:190:34: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3575/3655] Replayed MatrixSpencer.KSEighthManuscriptSampler
+warning: MatrixSpencer/KSEighthManuscriptSampler.lean:124:13: This simp argument is unused:
+  Matrix.sub_mulVec
+
+Hint: Omit it from the simp argument list.
+  simp only [̵M̵a̵t̵r̵i̵x̵.̵s̵u̵b̵_̵m̵u̵l̵V̵e̵c̵,̵ ̵d̵o̵t̵P̵r̵o̵d̵u̵c̵t̵_̵s̵u̵b̵,̵[̲d̲o̲t̲P̲r̲o̲d̲u̲c̲t̲_̲s̲u̲b̲,̲ star_trivial, Matrix.mulVec_single_one, single_dotProduct, one_mul,
+  ̲  ̲ ̲ ̲Matrix.vecMulVec_apply] at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/KSEighthManuscriptSampler.lean:124:32: This simp argument is unused:
+  dotProduct_sub
+
+Hint: Omit it from the simp argument list.
+  simp only [Matrix.sub_mulVec, d̵o̵t̵P̵r̵o̵d̵u̵c̵t̵_̵s̵u̵b̵,̵ ̵star_trivial, Matrix.mulVec_single_one, single_dotProduct, one_mul,
+  ̲  ̲ ̲ ̲Matrix.vecMulVec_apply] at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/KSEighthManuscriptSampler.lean:125:32: This simp argument is unused:
+  Matrix.vecMulVec_apply
+
+Hint: Omit it from the simp argument list.
+  simp only [Matrix.sub_mulVec, dotProduct_sub, star_trivial, Matrix.mulVec_single_one,
+      single_dotProduct, one_mul,̵ ̵M̵a̵t̵r̵i̵x̵.̵v̵e̵c̵M̵u̵l̵V̵e̵c̵_̵a̵p̵p̵l̵y̵] at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/KSEighthManuscriptSampler.lean:141:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [3579/3655] Replayed MatrixSpencer.KSEighthManuscriptMovement
+warning: MatrixSpencer/KSEighthManuscriptMovement.lean:51:15: This simp argument is unused:
+  ← Matrix.diagonal_mul
+
+Hint: Omit it from the simp argument list.
+  simp [D, ← Matrix.diagonal_m̵u̵l̵,̵ ̵←̵ ̵M̵a̵t̵r̵i̵x̵.̵d̵i̵a̵g̵o̵n̵a̵l̵_̵sub, pow_two]
+
+Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3581/3655] Replayed MatrixSpencer.KSEighthManuscriptBranchingDrift
+warning: MatrixSpencer/KSEighthManuscriptBranchingDrift.lean:123:20: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3600/3655] Replayed MatrixSpencer.KSEighthManuscriptParameters
+warning: MatrixSpencer/KSEighthManuscriptParameters.lean:72:18: unused variable `hδ`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3601/3655] Replayed MatrixSpencer.KSManuscriptPolynomialTaylorBounds
+warning: MatrixSpencer/KSManuscriptPolynomialTaylorBounds.lean:32:23: unused variable `hR`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: MatrixSpencer/KSManuscriptPolynomialTaylorBounds.lean:33:5: unused variable `hθ`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: MatrixSpencer/KSManuscriptPolynomialTaylorBounds.lean:63:5: unused variable `hμ`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: MatrixSpencer/KSManuscriptPolynomialTaylorBounds.lean:63:18: unused variable `hρ`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: MatrixSpencer/KSManuscriptPolynomialTaylorBounds.lean:82:5: unused variable `hθ`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: MatrixSpencer/KSManuscriptPolynomialTaylorBounds.lean:95:54: unused variable `hV`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3609/3655] Replayed MatrixSpencer.KSRetirementRuntime
+warning: MatrixSpencer/KSRetirementRuntime.lean:49:62: This simp argument is unused:
+  Rat.cast_one
+
+Hint: Omit it from the simp argument list.
+  simp only [decision, Program.run, Expr.eval, Rat.cast_zero, Rat.cast_on̵e̵,̵
+  ̵ ̵ ̵ ̵ ̵R̵a̵t̵.̵c̵a̵s̵t̵_̵o̵fNat, zero_sub]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3611/3655] Replayed MatrixSpencer.KSEighthManuscriptRetryCost
+warning: MatrixSpencer/KSEighthManuscriptRetryCost.lean:20:0: automatically included section variable(s) unused in theorem `MatrixSpencer.KSEighthManuscriptRetryCost.work_le`:
+  [Fintype L]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype L] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3613/3655] Replayed MatrixSpencer.KSStencilMagnitudeBounds
+warning: MatrixSpencer/KSStencilMagnitudeBounds.lean:32:20: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3614/3655] Replayed MatrixSpencer.KSStencilMatrixBounds
+warning: MatrixSpencer/KSStencilMatrixBounds.lean:83:5: unused variable `hV`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3615/3655] Replayed MatrixSpencer.KSFullManuscriptWalkBudget
+warning: MatrixSpencer/KSFullManuscriptWalkBudget.lean:28:6: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3617/3655] Replayed MatrixSpencer.KSManuscriptPolynomialParameters
+warning: MatrixSpencer/KSManuscriptPolynomialParameters.lean:27:5: unused variable `hδ`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: MatrixSpencer/KSManuscriptPolynomialParameters.lean:56:4: 'norm_num' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [3629/3655] Replayed MatrixSpencer.RealRAMFullHessian
+warning: MatrixSpencer/RealRAMFullHessian.lean:33:61: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  simp [̵p̵o̵i̵n̵t̵,̵p̵o̵i̵n̵t̵C̵i̵r̵c̵u̵i̵t̵,̵C̵i̵r̵c̵u̵i̵t̵.̵e̵v̵a̵l̵,̵E̵x̵p̵r̵.̵e̵v̵a̵l̵,̵c̵o̵o̵r̵d̵i̵n̵a̵t̵e̵,̵P̵i̵.̵s̵i̵n̵g̵l̵e̵_̵a̵p̵p̵l̵y̵]̵[̲p̲o̲i̲n̲t̲,̲ ̲p̲o̲i̲n̲t̲C̲i̲r̲c̲u̲i̲t̲,̲ ̲C̲i̲r̲c̲u̲i̲t̲.̲e̲v̲a̲l̲,̲ ̲E̲x̲p̲r̲.̲e̲v̲a̲l̲,̲ ̲c̲o̲o̲r̲d̲i̲n̲a̲t̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/RealRAMFullHessian.lean:34:29: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: MatrixSpencer/RealRAMFullHessian.lean:34:29: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: MatrixSpencer/RealRAMFullHessian.lean:114:10: This simp argument is unused:
+  hpp
+
+Hint: Omit it from the simp argument list.
+  simp [hpp̵,̵h̵p̵m, ̲hmp, ̲hmm, ̲zero_add, ̲zero_sub, ̲pow_two, ̲sub_eq_add_neg, ̲Matrix.cons_val]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/RealRAMFullHessian.lean:114:14: This simp argument is unused:
+  hpm
+
+Hint: Omit it from the simp argument list.
+  simp [hpp, ̲hp̵m,̵h̵m̵p, ̲hmm, ̲zero_add, ̲zero_sub, ̲pow_two, ̲sub_eq_add_neg, ̲Matrix.cons_val]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/RealRAMFullHessian.lean:114:18: This simp argument is unused:
+  hmp
+
+Hint: Omit it from the simp argument list.
+  simp [hpp, ̲hpm̵m̲, ̲hmp̵,̵h̵mm̵, ̲zero_add, ̲zero_sub, ̲pow_two, ̲sub_eq_add_neg, ̲Matrix.cons_val]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/RealRAMFullHessian.lean:114:22: This simp argument is unused:
+  hmm
+
+Hint: Omit it from the simp argument list.
+  simp [hpp, ̲hpm, ̲hmp,h̵m̵m̵,̵ ̲zero_add, ̲zero_sub, ̲pow_two, ̲sub_eq_add_neg, ̲Matrix.cons_val]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/RealRAMFullHessian.lean:114:26: This simp argument is unused:
+  zero_add
+
+Hint: Omit it from the simp argument list.
+  simp [̵h̵p̵p̵,̵h̵p̵m̵,̵h̵m̵p̵,̵h̵m̵m̵,̵z̵e̵r̵o̵_̵a̵d̵d̵,̵z̵e̵r̵o̵_̵s̵u̵b̵,̵p̵o̵w̵_̵t̵w̵o̵,̵s̵u̵b̵_̵e̵q̵_̵a̵d̵d̵_̵n̵e̵g̵,̵M̵a̵t̵r̵i̵x̵.̵c̵o̵n̵s̵_̵v̵a̵l̵]̵[̲h̲p̲p̲,̲ ̲h̲p̲m̲,̲ ̲h̲m̲p̲,̲ ̲h̲m̲m̲,̲ ̲z̲e̲r̲o̲_̲s̲u̲b̲,̲ ̲p̲o̲w̲_̲t̲w̲o̲,̲ ̲s̲u̲b̲_̲e̲q̲_̲a̲d̲d̲_̲n̲e̲g̲,̲ ̲M̲a̲t̲r̲i̲x̲.̲c̲o̲n̲s̲_̲v̲a̲l̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/RealRAMFullHessian.lean:114:35: This simp argument is unused:
+  zero_sub
+
+Hint: Omit it from the simp argument list.
+  simp [̵h̵p̵p̵,̵h̵p̵m̵,̵h̵m̵p̵,̵h̵m̵m̵,̵z̵e̵r̵o̵_̵a̵d̵d̵,̵z̵e̵r̵o̵_̵s̵u̵b̵,̵p̵o̵w̵_̵t̵w̵o̵,̵s̵u̵b̵_̵e̵q̵_̵a̵d̵d̵_̵n̵e̵g̵,̵M̵a̵t̵r̵i̵x̵.̵c̵o̵n̵s̵_̵v̵a̵l̵]̵[̲h̲p̲p̲,̲ ̲h̲p̲m̲,̲ ̲h̲m̲p̲,̲ ̲h̲m̲m̲,̲ ̲z̲e̲r̲o̲_̲a̲d̲d̲,̲ ̲p̲o̲w̲_̲t̲w̲o̲,̲ ̲s̲u̲b̲_̲e̲q̲_̲a̲d̲d̲_̲n̲e̲g̲,̲ ̲M̲a̲t̲r̲i̲x̲.̲c̲o̲n̲s̲_̲v̲a̲l̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3632/3655] Replayed MatrixSpencer.KSFullConvexRuntime
+warning: MatrixSpencer/KSFullConvexRuntime.lean:230:17: This simp argument is unused:
+  C
+
+Hint: Omit it from the simp argument list.
+  simp only [C̵,̵KSFullConvexOracleController.controller,
+          KSFullConvexOracleController.numericalDirection, ̲dif_neg ht,
+          KSFullConvexOracleController.liveDirection]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/KSFullConvexRuntime.lean:273:17: This simp argument is unused:
+  C
+
+Hint: Omit it from the simp argument list.
+  simp only [C̵,̵KSFullConvexOracleController.controller,
+          KSFullConvexOracleController.numericalDirection, ̲dif_neg ht,
+          KSFullConvexOracleController.liveDirection]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3634/3655] Replayed MatrixSpencer.RealRAMKSFullStateData
+warning: MatrixSpencer/RealRAMKSFullStateData.lean:53:59: This simp argument is unused:
+  or_comm
+
+Hint: Omit it from the simp argument list.
+  simp [̵f̵r̵o̵z̵e̵n̵M̵a̵s̵k̵,̵k̵s̵F̵r̵o̵z̵e̵n̵,̵a̵b̵s̵_̵e̵q̵[̲f̲r̲o̲z̲e̲n̲M̲a̲s̲k̲,̲ ̲k̲s̲F̲r̲o̲z̲e̲n̲,̲ ̲a̲b̲s̲_̲e̲q̲ (by norm_num : (̵0̵:̵ℝ̵)̵≤̵1̵)̵,̵o̵r̵_̵c̵o̵m̵m̵]̵(̲0̲ ̲:̲ ̲ℝ̲)̲ ̲≤̲ ̲1̲)̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/RealRAMKSFullStateData.lean:89:32: This simp argument is unused:
+  Sum.elim_inl
+
+Hint: Omit it from the simp argument list.
+  simp only [̵i̵n̵p̵u̵t̵,̵S̵u̵m̵.̵e̵l̵i̵m̵_̵i̵n̵r̵,̵S̵u̵m̵.̵e̵l̵i̵m̵_̵i̵n̵l̵,̵F̵i̵n̵.̵z̵e̵r̵o̵_̵e̵t̵a̵,̵F̵i̵n̵.̵i̵s̵V̵a̵l̵u̵e̵,̵
+  ̵ ̵ ̵ ̵ ̵i̵t̵e̵_̵t̵r̵u̵e̵,̵i̵t̵e̵_̵f̵a̵l̵s̵e̵,̵R̵a̵t̵.̵c̵a̵s̵t̵_̵o̵n̵e̵,̵R̵a̵t̵.̵c̵a̵s̵t̵_̵z̵e̵r̵o̵]̵[̲i̲n̲p̲u̲t̲,̲ ̲S̲u̲m̲.̲e̲l̲i̲m̲_̲i̲n̲r̲,̲ ̲F̲i̲n̲.̲z̲e̲r̲o̲_̲e̲t̲a̲,̲ ̲F̲i̲n̲.̲i̲s̲V̲a̲l̲u̲e̲,̲ ̲i̲t̲e̲_̲t̲r̲u̲e̲,̲ ̲i̲t̲e̲_̲f̲a̲l̲s̲e̲,̲ ̲R̲a̲t̲.̲c̲a̲s̲t̲_̲o̲n̲e̲,̲
+  ̲ ̲ ̲ ̲ ̲R̲a̲t̲.̲c̲a̲s̲t̲_̲z̲e̲r̲o̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/RealRAMKSFullStateData.lean:89:45: This simp argument is unused:
+  Fin.zero_eta
+
+Hint: Omit it from the simp argument list.
+  simp only [̵i̵n̵p̵u̵t̵,̵S̵u̵m̵.̵e̵l̵i̵m̵_̵i̵n̵r̵,̵S̵u̵m̵.̵e̵l̵i̵m̵_̵i̵n̵l̵,̵F̵i̵n̵.̵z̵e̵r̵o̵_̵e̵t̵a̵,̵F̵i̵n̵.̵i̵s̵V̵a̵l̵u̵e̵,̵
+  ̵ ̵ ̵ ̵ ̵i̵t̵e̵_̵t̵r̵u̵e̵,̵i̵t̵e̵_̵f̵a̵l̵s̵e̵,̵R̵a̵t̵.̵c̵a̵s̵t̵_̵o̵n̵e̵,̵R̵a̵t̵.̵c̵a̵s̵t̵_̵z̵e̵r̵o̵]̵[̲i̲n̲p̲u̲t̲,̲ ̲S̲u̲m̲.̲e̲l̲i̲m̲_̲i̲n̲r̲,̲ ̲S̲u̲m̲.̲e̲l̲i̲m̲_̲i̲n̲l̲,̲ ̲F̲i̲n̲.̲i̲s̲V̲a̲l̲u̲e̲,̲ ̲i̲t̲e̲_̲t̲r̲u̲e̲,̲ ̲i̲t̲e̲_̲f̲a̲l̲s̲e̲,̲ ̲R̲a̲t̲.̲c̲a̲s̲t̲_̲o̲n̲e̲,̲
+  ̲ ̲ ̲ ̲ ̲R̲a̲t̲.̲c̲a̲s̲t̲_̲z̲e̲r̲o̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/RealRAMKSFullStateData.lean:90:13: This simp argument is unused:
+  ite_false
+
+Hint: Omit it from the simp argument list.
+  simp only [̵i̵n̵p̵u̵t̵,̵S̵u̵m̵.̵e̵l̵i̵m̵_̵i̵n̵r̵,̵S̵u̵m̵.̵e̵l̵i̵m̵_̵i̵n̵l̵,̵F̵i̵n̵.̵z̵e̵r̵o̵_̵e̵t̵a̵,̵F̵i̵n̵.̵i̵s̵V̵a̵l̵u̵e̵,̵
+  ̵ ̵ ̵ ̵ ̵i̵t̵e̵_̵t̵r̵u̵e̵,̵i̵t̵e̵_̵f̵a̵l̵s̵e̵,̵R̵a̵t̵.̵c̵a̵s̵t̵_̵o̵n̵e̵,̵R̵a̵t̵.̵c̵a̵s̵t̵_̵z̵e̵r̵o̵]̵[̲i̲n̲p̲u̲t̲,̲ ̲S̲u̲m̲.̲e̲l̲i̲m̲_̲i̲n̲r̲,̲ ̲S̲u̲m̲.̲e̲l̲i̲m̲_̲i̲n̲l̲,̲ ̲F̲i̲n̲.̲z̲e̲r̲o̲_̲e̲t̲a̲,̲ ̲F̲i̲n̲.̲i̲s̲V̲a̲l̲u̲e̲,̲ ̲i̲t̲e̲_̲t̲r̲u̲e̲,̲ ̲R̲a̲t̲.̲c̲a̲s̲t̲_̲o̲n̲e̲,̲
+  ̲ ̲ ̲ ̲ ̲R̲a̲t̲.̲c̲a̲s̲t̲_̲z̲e̲r̲o̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/RealRAMKSFullStateData.lean:90:23: This simp argument is unused:
+  Rat.cast_one
+
+Hint: Omit it from the simp argument list.
+  simp only [̵i̵n̵p̵u̵t̵,̵S̵u̵m̵.̵e̵l̵i̵m̵_̵i̵n̵r̵,̵S̵u̵m̵.̵e̵l̵i̵m̵_̵i̵n̵l̵,̵F̵i̵n̵.̵z̵e̵r̵o̵_̵e̵t̵a̵,̵F̵i̵n̵.̵i̵s̵V̵a̵l̵u̵e̵,̵
+  ̵ ̵ ̵ ̵ ̵i̵t̵e̵_̵t̵r̵u̵e̵,̵i̵t̵e̵_̵f̵a̵l̵s̵e̵,̵R̵a̵t̵.̵c̵a̵s̵t̵_̵o̵n̵e̵,̵R̵a̵t̵.̵c̵a̵s̵t̵_̵z̵e̵r̵o̵]̵[̲i̲n̲p̲u̲t̲,̲ ̲S̲u̲m̲.̲e̲l̲i̲m̲_̲i̲n̲r̲,̲ ̲S̲u̲m̲.̲e̲l̲i̲m̲_̲i̲n̲l̲,̲ ̲F̲i̲n̲.̲z̲e̲r̲o̲_̲e̲t̲a̲,̲ ̲F̲i̲n̲.̲i̲s̲V̲a̲l̲u̲e̲,̲ ̲i̲t̲e̲_̲t̲r̲u̲e̲,̲ ̲i̲t̲e̲_̲f̲a̲l̲s̲e̲,̲
+  ̲ ̲ ̲ ̲ ̲R̲a̲t̲.̲c̲a̲s̲t̲_̲z̲e̲r̲o̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/RealRAMKSFullStateData.lean:90:36: This simp argument is unused:
+  Rat.cast_zero
+
+Hint: Omit it from the simp argument list.
+  simp only [̵i̵n̵p̵u̵t̵,̵S̵u̵m̵.̵e̵l̵i̵m̵_̵i̵n̵r̵,̵S̵u̵m̵.̵e̵l̵i̵m̵_̵i̵n̵l̵,̵F̵i̵n̵.̵z̵e̵r̵o̵_̵e̵t̵a̵,̵F̵i̵n̵.̵i̵s̵V̵a̵l̵u̵e̵,̵
+  ̵ ̵ ̵ ̵ ̵i̵t̵e̵_̵t̵r̵u̵e̵,̵i̵t̵e̵_̵f̵a̵l̵s̵e̵,̵R̵a̵t̵.̵c̵a̵s̵t̵_̵o̵n̵e̵,̵R̵a̵t̵.̵c̵a̵s̵t̵_̵z̵e̵r̵o̵]̵[̲i̲n̲p̲u̲t̲,̲ ̲S̲u̲m̲.̲e̲l̲i̲m̲_̲i̲n̲r̲,̲ ̲S̲u̲m̲.̲e̲l̲i̲m̲_̲i̲n̲l̲,̲ ̲F̲i̲n̲.̲z̲e̲r̲o̲_̲e̲t̲a̲,̲ ̲F̲i̲n̲.̲i̲s̲V̲a̲l̲u̲e̲,̲ ̲i̲t̲e̲_̲t̲r̲u̲e̲,̲ ̲i̲t̲e̲_̲f̲a̲l̲s̲e̲,̲
+  ̲ ̲ ̲ ̲ ̲R̲a̲t̲.̲c̲a̲s̲t̲_̲o̲n̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/RealRAMKSFullStateData.lean:93:4: This simp argument is unused:
+  Finset.sum_filter
+
+Hint: Omit it from the simp argument list.
+  simp only [KSDebitBudget.debit, ̲Matrix.add_apply, ̲Matrix.smul_apply, ̲Matrix.sum_apply,
+      F̵i̵n̵s̵e̵t̵.̵s̵u̵m̵_̵f̵i̵l̵t̵e̵r̵,̵Matrix.one_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/RealRAMKSFullStateData.lean:94:33: This simp argument is unused:
+  smul_eq_mul
+
+Hint: Omit it from the simp argument list.
+  simp [he,̵s̵m̵u̵l̵_̵e̵q̵_̵m̵u̵l̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/RealRAMKSFullStateData.lean:91:2: 'norm_num only' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: MatrixSpencer/RealRAMKSFullStateData.lean:94:46: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MatrixSpencer/RealRAMKSFullStateData.lean:108:24: This simp argument is unused:
+  Matrix.sub_apply
+
+Hint: Omit it from the simp argument list.
+  simp [̵b̵l̵o̵c̵k̵C̵e̵n̵t̵e̵r̵E̵x̵p̵r̵,̵c̵e̵n̵t̵e̵r̵E̵x̵p̵r̵_̵e̵v̵a̵l̵,̵d̵e̵b̵i̵t̵E̵x̵p̵r̵_̵e̵v̵a̵l̵,̵E̵x̵p̵r̵.̵e̵v̵a̵l̵,̵
+  ̵ ̵ ̵ ̵ ̵ ̵ ̵M̵a̵t̵r̵i̵x̵.̵f̵r̵o̵m̵B̵l̵o̵c̵k̵s̵,̵M̵a̵t̵r̵i̵x̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵,̵M̵a̵t̵r̵i̵x̵.̵n̵e̵g̵_̵a̵p̵p̵l̵y̵,̵s̵u̵b̵_̵e̵q̵_̵a̵d̵d̵_̵n̵e̵g̵]̵[̲b̲l̲o̲c̲k̲C̲e̲n̲t̲e̲r̲E̲x̲p̲r̲,̲ ̲c̲e̲n̲t̲e̲r̲E̲x̲p̲r̲_̲e̲v̲a̲l̲,̲ ̲d̲e̲b̲i̲t̲E̲x̲p̲r̲_̲e̲v̲a̲l̲,̲ ̲E̲x̲p̲r̲.̲e̲v̲a̲l̲,̲ ̲M̲a̲t̲r̲i̲x̲.̲f̲r̲o̲m̲B̲l̲o̲c̲k̲s̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲M̲a̲t̲r̲i̲x̲.̲n̲e̲g̲_̲a̲p̲p̲l̲y̲,̲ ̲s̲u̲b̲_̲e̲q̲_̲a̲d̲d̲_̲n̲e̲g̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3635/3655] Replayed MatrixSpencer.RealRAMSDPChart
+warning: MatrixSpencer/RealRAMSDPChart.lean:19:86: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  simp [̵u̵n̵i̵t̵E̵x̵p̵r̵,̵E̵x̵p̵r̵.̵e̵v̵a̵l̵,̵e̵n̵t̵r̵i̵e̵s̵,̵u̵n̵i̵t̵,̵P̵i̵.̵s̵i̵n̵g̵l̵e̵_̵a̵p̵p̵l̵y̵,̵h̵,̵e̵q̵_̵c̵o̵m̵m̵]̵[̲u̲n̲i̲t̲E̲x̲p̲r̲,̲ ̲E̲x̲p̲r̲.̲e̲v̲a̲l̲,̲ ̲e̲n̲t̲r̲i̲e̲s̲,̲ ̲u̲n̲i̲t̲,̲ ̲h̲,̲
+  ̲ ̲ ̲ ̲ ̲e̲q̲_̲c̲o̲m̲m̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/RealRAMSDPChart.lean:19:104: This simp argument is unused:
+  eq_comm
+
+Hint: Omit it from the simp argument list.
+  simp [̵u̵n̵i̵t̵E̵x̵p̵r̵,̵E̵x̵p̵r̵.̵e̵v̵a̵l̵,̵e̵n̵t̵r̵i̵e̵s̵,̵u̵n̵i̵t̵,̵P̵i̵.̵s̵i̵n̵g̵l̵e̵_̵a̵p̵p̵l̵y̵,̵h̵,̵e̵q̵_̵c̵o̵m̵m̵]̵[̲u̲n̲i̲t̲E̲x̲p̲r̲,̲ ̲E̲x̲p̲r̲.̲e̲v̲a̲l̲,̲ ̲e̲n̲t̲r̲i̲e̲s̲,̲ ̲u̲n̲i̲t̲,̲
+  ̲ ̲ ̲ ̲ ̲P̲i̲.̲s̲i̲n̲g̲l̲e̲_̲a̲p̲p̲l̲y̲,̲ ̲h̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/RealRAMSDPChart.lean:59:48: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MatrixSpencer/RealRAMSDPChart.lean:103:59: unused variable `p`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: MatrixSpencer/RealRAMSDPChart.lean:105:63: unused variable `p`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: MatrixSpencer/RealRAMSDPChart.lean:114:77: unused variable `p`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3637/3655] Replayed MatrixSpencer.RealRAMOwnerSDPBlocks
+warning: MatrixSpencer/RealRAMOwnerSDPBlocks.lean:29:8: automatically included section variable(s) unused in theorem `MatrixSpencer.RealRAM.OwnerSDPBlocks.atom_eval`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/RealRAMOwnerSDPBlocks.lean:31:8: automatically included section variable(s) unused in theorem `MatrixSpencer.RealRAM.OwnerSDPBlocks.center_eval`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/RealRAMOwnerSDPBlocks.lean:33:8: automatically included section variable(s) unused in theorem `MatrixSpencer.RealRAM.OwnerSDPBlocks.covariance_eval`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/RealRAMOwnerSDPBlocks.lean:35:8: automatically included section variable(s) unused in theorem `MatrixSpencer.RealRAM.OwnerSDPBlocks.theta_eval`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/RealRAMOwnerSDPBlocks.lean:48:0: automatically included section variable(s) unused in theorem `MatrixSpencer.RealRAM.OwnerSDPBlocks.source_valid`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/RealRAMOwnerSDPBlocks.lean:61:0: automatically included section variable(s) unused in theorem `MatrixSpencer.RealRAM.OwnerSDPBlocks.source_cost`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3638/3655] Replayed MatrixSpencer.RealRAMOwnerSDPSetup
+warning: MatrixSpencer/RealRAMOwnerSDPSetup.lean:20:8: automatically included section variable(s) unused in theorem `MatrixSpencer.RealRAM.OwnerSDPSetup.baseDensity_eval`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/RealRAMOwnerSDPSetup.lean:23:43: This simp argument is unused:
+  Matrix.one_apply
+
+Hint: Omit it from the simp argument list.
+  simp [baseDensity, ̲h, ̲Expr.eval, ̲KSFullManuscriptCenterData.densityCenter,
+      KSFullManuscriptStrictFeasible.density,̵M̵a̵t̵r̵i̵x̵.̵o̵n̵e̵_̵a̵p̵p̵l̵y̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/RealRAMOwnerSDPSetup.lean:25:0: automatically included section variable(s) unused in theorem `MatrixSpencer.RealRAM.OwnerSDPSetup.baseDensity_valid`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/RealRAMOwnerSDPSetup.lean:32:0: automatically included section variable(s) unused in theorem `MatrixSpencer.RealRAM.OwnerSDPSetup.baseDensity_cost`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/RealRAMOwnerSDPSetup.lean:36:8: automatically included section variable(s) unused in theorem `MatrixSpencer.RealRAM.OwnerSDPSetup.identity_eval`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/RealRAMOwnerSDPSetup.lean:157:8: automatically included section variable(s) unused in theorem `MatrixSpencer.RealRAM.OwnerSDPSetup.traceExpr_eval`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/RealRAMOwnerSDPSetup.lean:161:0: automatically included section variable(s) unused in theorem `MatrixSpencer.RealRAM.OwnerSDPSetup.traceExpr_valid`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/RealRAMOwnerSDPSetup.lean:165:0: automatically included section variable(s) unused in theorem `MatrixSpencer.RealRAM.OwnerSDPSetup.traceExpr_cost`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3643/3655] Replayed MatrixSpencer.KSCountedRetry
+warning: MatrixSpencer/KSCountedRetry.lean:37:82: This simp argument is unused:
+  ↓reduceIte
+
+Hint: Omit it from the simp argument list.
+  simp only [̵K̵S̵E̵i̵g̵h̵t̵h̵M̵a̵n̵u̵s̵c̵r̵i̵p̵t̵R̵e̵t̵r̵y̵.̵f̵i̵r̵s̵t̵A̵c̵c̵e̵p̵t̵e̵d̵,̵h̵a̵,̵↓̵r̵e̵d̵u̵c̵e̵I̵t̵e̵]̵[̲K̲S̲E̲i̲g̲h̲t̲h̲M̲a̲n̲u̲s̲c̲r̲i̲p̲t̲R̲e̲t̲r̲y̲.̲f̲i̲r̲s̲t̲A̲c̲c̲e̲p̲t̲e̲d̲,̲ ̲h̲a̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3646/3655] Replayed MatrixSpencer.RealRAMKSParameterSetup
+warning: MatrixSpencer/RealRAMKSParameterSetup.lean:175:8: automatically included section variable(s) unused in theorem `MatrixSpencer.RealRAM.KSParameterSetup.fullM_eval`:
+  [Nonempty (Fin d)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty (Fin d)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/RealRAMKSParameterSetup.lean:195:8: automatically included section variable(s) unused in theorem `MatrixSpencer.RealRAM.KSParameterSetup.eighthFloor_eval`:
+  [Nonempty (Fin d)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty (Fin d)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/RealRAMKSParameterSetup.lean:225:8: automatically included section variable(s) unused in theorem `MatrixSpencer.RealRAM.KSParameterSetup.eighthRho_eval`:
+  [Nonempty (Fin d)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty (Fin d)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/RealRAMKSParameterSetup.lean:229:8: automatically included section variable(s) unused in theorem `MatrixSpencer.RealRAM.KSParameterSetup.eighthKappa_eval`:
+  [Nonempty (Fin d)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty (Fin d)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MatrixSpencer/RealRAMKSParameterSetup.lean:309:0: automatically included section variable(s) unused in theorem `MatrixSpencer.RealRAM.KSParameterSetup.compute_cost`:
+  [Nonempty (Fin d)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty (Fin d)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3648/3655] Replayed MatrixSpencer.RealRAMKSLoopCapSetup
+warning: MatrixSpencer/RealRAMKSLoopCapSetup.lean:70:40: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MatrixSpencer/RealRAMKSLoopCapSetup.lean:128:55: This simp argument is unused:
+  eval
+
+Hint: Omit it from the simp argument list.
+  simp [fullJacobi, ̲KSJacobiPolynomialBounds.fullJacobi,̵e̵v̵a̵l̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatrixSpencer/RealRAMKSLoopCapSetup.lean:130:59: This simp argument is unused:
+  eval
+
+Hint: Omit it from the simp argument list.
+  simp [eighthJacobi, ̲KSJacobiPolynomialBounds.eighthJacobi,̵e̵v̵a̵l̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Build completed successfully (3655 jobs).

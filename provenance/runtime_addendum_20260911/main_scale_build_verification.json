@@ -1,0 +1,13 @@
+{
+  "status": "VERIFIED_SCALE_BOUNDS_AND_READ_ONLY_RUNTIME_AUDIT",
+  "scope": "New parameter-bound module builds; all six theorem axiom reports use only propext, Classical.choice, Quot.sound. Source audit does not assert a whole-walk polynomial runtime or a fresh replay of the frozen algorithm closures.",
+  "finished_utc": "2026-09-11T17:13:01.063308+00:00",
+  "source_sha256": {
+    "MatrixSpencer/KSManuscriptScaleBounds.lean": "fe8f576ad05e9b6cf374b5176c54e5c4c8d160537e7bdf7f5287284729a7eb49",
+    "KS_MANUSCRIPT_RUNTIME_AUDIT_20260911.md": "e86f21aaa72c85688c31a6ce302b6c3f2b6ca015f2122b87b33a6ef2dd47b621",
+    ".verification/ks_manuscript_runtime_20260911/ScaleAxioms.lean": "f9722dcc531e9901192ab512c2610068c10516959d9fb55182e2d6bc50099d84",
+    ".verification/ks_manuscript_runtime_20260911/scale_axioms.log": "1bbd9991f7a95a8e9740ebe94efb9bb85535ee37e38285ef4e83baf7a0e683d0"
+  },
+  "build_command": "./run_lake.sh build MatrixSpencer.KSManuscriptScaleBounds",
+  "axiom_command": "./run_lake.sh env lean .verification/ks_manuscript_runtime_20260911/ScaleAxioms.lean"
+}

@@ -1,0 +1,3 @@
+'KSFullPrimitiveAudit.returned_signing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KSFullPrimitiveAudit.actual_success_event' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KSFullPrimitiveAudit.weights_are_probabilities' depends on axioms: [propext, Classical.choice, Quot.sound]

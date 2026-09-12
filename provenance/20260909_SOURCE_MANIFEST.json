@@ -1,0 +1,467 @@
+{
+  "theorem": "MatrixSpencer.kadison_singer_spin_mixed",
+  "root_module": "MatrixSpencer.KSSpinMain",
+  "local_proof_module_count": 81,
+  "copied_files_sha256": {
+    "MatrixSpencer/BalancedTransport.lean": "31e6284fbcffeae01fdc6d393a79be57c991e3fbc8e2f86c907c24b9547e7ae4",
+    "MatrixSpencer/CompactTaylor.lean": "e6e7eca5b5bba8c72206144d2289f5f8665703b778c9d3b8299f3df63aca7917",
+    "MatrixSpencer/ComplexGram.lean": "a5ec98a4050451ad2a7dc449f3f7527c8a057e9fb2e4d20bb89701109969f94b",
+    "MatrixSpencer/CovarianceBounds.lean": "f6e2aecc996ffec7c4ff9c3c82ee39e0b194d79e6837fa8f12ae2da2daeef89c",
+    "MatrixSpencer/CovarianceCalculus.lean": "49abd27d841d7a9f39313134c3e11b01ef3e2bd400e8f16a4528e3ff9f5a9070",
+    "MatrixSpencer/CovarianceResponse.lean": "109e4e53be002220149fb2ed587d66cc96fb4aea5378f9ef8c43a17258826326",
+    "MatrixSpencer/CovarianceSource.lean": "016f7ffb722a852917a4786c4155783d96a2bd3b278b589af368a9c2e869f6f9",
+    "MatrixSpencer/CovarianceSupport.lean": "ce302341776bd323819536810131417f602c970b6a72e0937645361494027ed7",
+    "MatrixSpencer/DensityDomain.lean": "af5ea02bf727160e32ad51446dcb987172a2e1853e45e2a6221aacbd29b6cb32",
+    "MatrixSpencer/DensityFaithfulness.lean": "3c4e53b62ee1ff57cbadc2af2064a1f96efb9067169f5eb474c730df43ad807d",
+    "MatrixSpencer/DensityHessian.lean": "2598db90a749d4ff4350e9f63ca331348e2bb51e774ce727b2cd0dcaff2d62b8",
+    "MatrixSpencer/DensityPotential.lean": "e9edf125e9660a0df3714316c95a64335b1f765721fd2a41bd522149e68449db",
+    "MatrixSpencer/DyadicRoot.lean": "0b8c58f74c1f271655aa6ab539b2ba3907211b5d3fd0d32a43b4a63c124cdd44",
+    "MatrixSpencer/DyadicTraceInterpolation.lean": "1d13deeaf513641d174ced642e62a7a8265bb22cd50cfa8bbb4842fe75553661",
+    "MatrixSpencer/FidelityBounds.lean": "434bbd784a6cef4c579faccdf6edc9406910b065e322513f704aa38992d008e5",
+    "MatrixSpencer/FidelityCompression.lean": "5f8f533e509a8c259db06d66ca515aafdb5697eb914c274cb896607a5a1c621b",
+    "MatrixSpencer/FidelityContinuity.lean": "c0fc99392e8869c8f821e969b7653709531c125624af9e02c1bc5b537ab6c482",
+    "MatrixSpencer/FidelityDerivative.lean": "a75191f8cd631f7063dc8fdab77d96d563252a2082e07d08dd4c7f9cc442ec06",
+    "MatrixSpencer/FidelityHessian.lean": "4e017947fa8e16195ae9cc839ae7fa79fe421a48f945b1be4e48fb05f6308ad1",
+    "MatrixSpencer/GeneralizedSylvester.lean": "1447fe538b9104a833ae86c404a34b2fbd7a3137247a5e9c5f4dd40fa4ff53b7",
+    "MatrixSpencer/JointOwnerResponse.lean": "4aa4d0dd20817e1687785b1e29c33a070e354fa06860c272be1c3cd1bff7470f",
+    "MatrixSpencer/KSArbitraryRetirement.lean": "1179fce88895728cc5f7e5fe99b75d73891d9c966c9206b0375b6ebeb57d5d45",
+    "MatrixSpencer/KSArbitraryTransportContact.lean": "ba66af836c26c1175ee9b101e967574cb8e82764ae26af954e76ec14db23af70",
+    "MatrixSpencer/KSBalancedSpin.lean": "7537c5f0d826f30368660e71dcadc1990ab8a9451c88ce64cdc3bb8acad4b5eb",
+    "MatrixSpencer/KSCommonSource.lean": "1d8b0528fd17b74c3826cb6d18cee33e68ed8c8e03a2ca3e06742f8aed1a66f6",
+    "MatrixSpencer/KSCompactMinimum.lean": "c9f22a96d67ecaa331c28e666e8abf49fb22f61bb738bd11ce7f922aeb034688",
+    "MatrixSpencer/KSEndpointCube.lean": "84abd524a70c667d409d4f7086599d5a5db20429c98d8fff545193141503192a",
+    "MatrixSpencer/KSEndpointRetirement.lean": "7c8aab7a9c8aa5aae649b4033845a6e196e747913a8f49686cabc1f862d648a6",
+    "MatrixSpencer/KSFinalAssembly.lean": "fd45fc0563cd1daa0613cb59d8606dcff310115de7f806a439fdd2ec2b18757c",
+    "MatrixSpencer/KSFisher.lean": "ff3dd78809a9382bbe1f307f4268dfa4ccda3b25246c50e27e89efb1a7221c91",
+    "MatrixSpencer/KSGlobalMinima.lean": "7a33cdcacf5037c68a383b841520d7789575d7f5f5be9c5c133e28287a9e905d",
+    "MatrixSpencer/KSIndependentSource.lean": "7499d5bdfa1463e8deaf9279310db458cc45ca3f4e10edcde6e91ddbb29cbe98",
+    "MatrixSpencer/KSInitialBounds.lean": "9b0f8df006aa18d93a2cd35a3997a486b685bf59c123f0505a174e03b29cce48",
+    "MatrixSpencer/KSLiveCurve.lean": "b53e752e4533c1a1f7e30a9859a06ef0a5ef9331d1f8de4217f107ce440c3b66",
+    "MatrixSpencer/KSLocalDescent.lean": "3caaf6fc6a6b4ddf42b66d3322e6e6b1dadad1534d365d504acf1a17e59c895c",
+    "MatrixSpencer/KSMovingOwnerHessian.lean": "2ef6a92b0982bd571308ace9cbdc3a2e383a4cc031f5959ad93fdd0c2c24b1aa",
+    "MatrixSpencer/KSOwnerRetirement.lean": "ce13cfe87e6a9dd24baff33f1097bdae62e5c9a0bde4581d027c7ff191ecf39b",
+    "MatrixSpencer/KSPotentialModels.lean": "f6c9a3a5a6d29b194e119d4d9edcc147e8ad1a55d432dd133ae84d92714928b4",
+    "MatrixSpencer/KSRankOne.lean": "5574b785b3177540527be56c1225a9063416902ed790c90f2f3aba274de0d14d",
+    "MatrixSpencer/KSSafeRetirement.lean": "752e31955b32b2877c40a1902797e687795caf6f860f1f939d5ae1b9422ef9f5",
+    "MatrixSpencer/KSSignSymmetry.lean": "e6dc42441bcd7c65102c72b2709dbafd2d78d0d849f18ef37eecd6f900c7dd7d",
+    "MatrixSpencer/KSSpinActualDescent.lean": "71db64e479e1dc10b34b1a5673ce1289dc335dd23a4cd792dfc521c56ba9a950",
+    "MatrixSpencer/KSSpinChosenRetirement.lean": "7cf07eca60500a33d1acf90fc5dc7e2d1bfb3fd647d106fb34d8acf29711ca59",
+    "MatrixSpencer/KSSpinCompression.lean": "d10e6144930269b1f0ae7fcb586cdbe3a992841d246d9084eb88228bc4606634",
+    "MatrixSpencer/KSSpinDrift.lean": "7cea3f14537186d1e7b3469297a9a5157ad4a9fce519f897d3be1c38b9b3b8a8",
+    "MatrixSpencer/KSSpinLiveSource.lean": "e2b1594060ca430e934ade305b2481a13e8f20e84103a0944bd26573dda27570",
+    "MatrixSpencer/KSSpinLocalState.lean": "0eb86f7bf7cf6e1981cec223570fd0dbed16f29cc6b95a0977ccfa3b76d300e8",
+    "MatrixSpencer/KSSpinMain.lean": "c5d0ce1e81ce5673c859bdcc5cacec6543ff1d401a5987a51e8c8f469c82c2d7",
+    "MatrixSpencer/KSSpinSource.lean": "f4f72911684feea3e3ba00081ea96543333a7c23bfa5189fd45e411fa6f98e28",
+    "MatrixSpencer/KSSpinSymmetry.lean": "348fb07447e0e56bfa489684efe54af0903e912a07a71400c08b4d8eb05b52e9",
+    "MatrixSpencer/KSSpinVertex.lean": "550c3e052239af7a3920c3add93365a96e2e9a5889fdea69359544c2f8d03199",
+    "MatrixSpencer/KSStateRetirement.lean": "c40327ee1af5ff5ee2c158dbecb91b6d37fb28f127f9007bede7aba8ca399986",
+    "MatrixSpencer/KSStatement.lean": "66d0c0c2610a9d299d684c8775dc5055e540f72834bdcbfc3ee62efec6896d6d",
+    "MatrixSpencer/KSSupportSymmetry.lean": "6fb7a58ec672525781fbfe58ea53eafb3531729d433a77bd513c6b2ca08fb844",
+    "MatrixSpencer/KSSupportedCenterCurve.lean": "4a87a8e63f16cfbd7e65de60d61734841d35ed3851d4b48d255981ffe753153a",
+    "MatrixSpencer/KSVarianceBounds.lean": "b35c4aad5df05476e119b1e8b4493cd5e4d501bc29eaffc4da01c4cfd366fe84",
+    "MatrixSpencer/KSWeightedProjection.lean": "4ebbe53d13423eb6efb4d4aa13ab4964b7cfef53ff58ed3704cccf5725f342c2",
+    "MatrixSpencer/KrausCompressionBridge.lean": "b7335d14febd019599855661686ad3c9aa05b5fa7b446323f3760dec03d2766d",
+    "MatrixSpencer/KrausReducedFamily.lean": "cb7b247ffd82c515d82cd115ef50479737192909bfa0f4f740fdf37d18b86775",
+    "MatrixSpencer/KrausSupport.lean": "686056eb83efff4d9f849592befbf38569e19fdfde73072e93b9f5f45ed92d01",
+    "MatrixSpencer/OptimizerResponse.lean": "d1f3c1d3921b275f4b177e9ee1e233e42fb29632900c4ac06a0f69400179a578",
+    "MatrixSpencer/OptimizerResponseUnrestricted.lean": "6ed6a638015229ad4d288694887e9b868528221b7b147a849df47c7b9c2b42db",
+    "MatrixSpencer/OwnerBounds.lean": "58c5518d36e847843a05bdc98a6a95a03fdb438dfd446ac298343a8b3c7dc045",
+    "MatrixSpencer/OwnerPotential.lean": "114f1345239292730e42ef31ca4efcd1815d41c99e711787a0d06e3847b0b033",
+    "MatrixSpencer/OwnerShort.lean": "768060778a58198ecaddd6bed004027aaeb9b757e2abe50788a6afe3019ca111",
+    "MatrixSpencer/RealCovarianceDomain.lean": "36f5ba8ebb77eeaa45b2512550a97f9e69001a902e5ef1948528626736e5c092",
+    "MatrixSpencer/Realignment.lean": "b805a78ad003b1aea283fd2d2ca409660b13caf218f2f231515d13a1e8b6bbe0",
+    "MatrixSpencer/SignedLift.lean": "7684db33b15cfeb7d4ed366bbbe4ad9c6be12beb62c5a14529699eb0ed7ead4f",
+    "MatrixSpencer/SingularDensityCalculus.lean": "bfcdc625977b1fee91e428254a312ea98126c3304b326f14a23aa01ad7477a04",
+    "MatrixSpencer/SpectralDensity.lean": "8080dd36d99aed5da4b4bf6c8d867e09541700fca8e7f1b0eb9fb7ba17277ab2",
+    "MatrixSpencer/SqrtCompression.lean": "f8ad853f4e0e32dcab8766697a55d0a45f0828e7829e81f9ddb9e81044f34ef8",
+    "MatrixSpencer/SqrtContinuity.lean": "1bcbca2062deda2919dbc36a9c7dbfc81163df8f69566de54fe0fbfff2fb1a8a",
+    "MatrixSpencer/SqrtDerivative.lean": "4456b755a2b300bdd035f892ab7d7cac153aeb74a5f74a0d7c81e4a0af724f92",
+    "MatrixSpencer/Statement.lean": "f03b23d5bba817e7e2174fd1723fbd5cdf92b95a115db5a44b0ae829e92bbcfd",
+    "MatrixSpencer/Sylvester.lean": "e7fa583792c1669b358959acc787bd158ffe46fb615848ca7e04ebcb3ab6d795",
+    "MatrixSpencer/TraceGeometry.lean": "1c46071031e30dfc3ca345c45532436254915d952d219f9e08bb84604fd61a47",
+    "MatrixSpencer/TraceSqrtConcavity.lean": "ba8c90efbc42f63fee7cc617828c3db1339797c61632b35bc82937a10a546aa7",
+    "MatrixSpencer/TransportDerivative.lean": "54f54a7380ea54af9b50d50615c2762c730eb6e1d904aac9b0e367942c43c4c1",
+    "MatrixSpencer/TransportVariational.lean": "f7d04397f98c5e397ba5732fd8906138299f1db566b98c286d372f9da35ede5a",
+    "MatrixSpencer/TsallisHessian.lean": "4e12a63af93ff4d368ffa60df32037e94dd138b5ffaf46fe38bc2c2996ffc1dd",
+    "MatrixSpencer/WeightedKraus.lean": "daa31862b14aa7d765d891e5b2241d427ebcaa1c05298204c2f7974fee09a4ba",
+    "lean-toolchain": "42779d67b81608af8a12aa4328d2ab47ca201925b3b2bd68369587b5340bb434",
+    "lakefile.toml": "c14de91b061557e3a22f68ab33b8b19b57f326f21f818805ddb3464650358233",
+    "lake-manifest.json": "9e255aa308f5826fc828a7cf46daa18c68f8c05202f308bd13ebccc787b358e1",
+    "tools/Replay.lean": "7c1a7b396672054d31841869b92ff6767b488b5380da6ecd6cd02d71ddcfc642",
+    "check_rectangular_proof.py": "8b8b97ded591afdb9f110714b47c018fe34b91d4a6a423c2e29fbd75f3c90319",
+    "check_kadison_singer_proofs.py": "a058c68b873fc00fec5a335d119e2033af23f96ce43354e1709f9badc5c5e125"
+  },
+  "imports": {
+    "MatrixSpencer.BalancedTransport": [
+      "MatrixSpencer.CovarianceSource",
+      "MatrixSpencer.FidelityBounds",
+      "MatrixSpencer.WeightedKraus"
+    ],
+    "MatrixSpencer.CompactTaylor": [
+      "Mathlib.Analysis.Calculus.ContDiff.Operations",
+      "Mathlib.Analysis.Calculus.Taylor",
+      "Mathlib.Analysis.Calculus.IteratedDeriv.FaaDiBruno",
+      "Mathlib.Topology.Compactness.Compact"
+    ],
+    "MatrixSpencer.ComplexGram": [
+      "Mathlib.Analysis.Matrix.Order",
+      "Mathlib.Analysis.CStarAlgebra.Matrix",
+      "Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Order"
+    ],
+    "MatrixSpencer.CovarianceBounds": [
+      "MatrixSpencer.CovarianceSource",
+      "MatrixSpencer.Statement"
+    ],
+    "MatrixSpencer.CovarianceCalculus": [
+      "MatrixSpencer.CovarianceSupport",
+      "MatrixSpencer.OptimizerResponseUnrestricted",
+      "MatrixSpencer.OwnerPotential",
+      "MatrixSpencer.RealCovarianceDomain"
+    ],
+    "MatrixSpencer.CovarianceResponse": [
+      "MatrixSpencer.CovarianceCalculus"
+    ],
+    "MatrixSpencer.CovarianceSource": [
+      "MatrixSpencer.DensityPotential"
+    ],
+    "MatrixSpencer.CovarianceSupport": [
+      "MatrixSpencer.CovarianceSource",
+      "MatrixSpencer.KrausCompressionBridge"
+    ],
+    "MatrixSpencer.DensityDomain": [
+      "MatrixSpencer.TraceGeometry",
+      "MatrixSpencer.Realignment",
+      "Mathlib.Analysis.CStarAlgebra.Matrix",
+      "Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Order",
+      "Mathlib.Analysis.Normed.Module.FiniteDimension"
+    ],
+    "MatrixSpencer.DensityFaithfulness": [
+      "MatrixSpencer.DensityPotential",
+      "Mathlib.Tactic.Module"
+    ],
+    "MatrixSpencer.DensityHessian": [
+      "MatrixSpencer.DensityPotential",
+      "MatrixSpencer.FidelityHessian",
+      "Mathlib.LinearAlgebra.Dual.Lemmas"
+    ],
+    "MatrixSpencer.DensityPotential": [
+      "MatrixSpencer.FidelityContinuity",
+      "MatrixSpencer.TraceSqrtConcavity",
+      "Mathlib.Topology.Order.Compact"
+    ],
+    "MatrixSpencer.DyadicRoot": [
+      "MatrixSpencer.SqrtDerivative",
+      "MatrixSpencer.SqrtContinuity",
+      "MatrixSpencer.SqrtCompression"
+    ],
+    "MatrixSpencer.DyadicTraceInterpolation": [
+      "MatrixSpencer.TraceGeometry",
+      "MatrixSpencer.DyadicRoot",
+      "Mathlib.Algebra.QuadraticDiscriminant",
+      "Mathlib.Analysis.SpecialFunctions.Pow.Real",
+      "Mathlib.Tactic"
+    ],
+    "MatrixSpencer.FidelityBounds": [
+      "MatrixSpencer.FidelityContinuity",
+      "Mathlib.Algebra.QuadraticDiscriminant"
+    ],
+    "MatrixSpencer.FidelityCompression": [
+      "MatrixSpencer.FidelityContinuity"
+    ],
+    "MatrixSpencer.FidelityContinuity": [
+      "MatrixSpencer.TransportVariational",
+      "MatrixSpencer.DensityDomain",
+      "MatrixSpencer.SqrtContinuity"
+    ],
+    "MatrixSpencer.FidelityDerivative": [
+      "MatrixSpencer.TsallisHessian",
+      "MatrixSpencer.TransportVariational",
+      "Mathlib.Analysis.Calculus.LocalExtr.Basic"
+    ],
+    "MatrixSpencer.FidelityHessian": [
+      "MatrixSpencer.GeneralizedSylvester"
+    ],
+    "MatrixSpencer.GeneralizedSylvester": [
+      "MatrixSpencer.TransportDerivative"
+    ],
+    "MatrixSpencer.JointOwnerResponse": [
+      "MatrixSpencer.CovarianceResponse"
+    ],
+    "MatrixSpencer.KSArbitraryRetirement": [
+      "MatrixSpencer.KSArbitraryTransportContact",
+      "MatrixSpencer.KSOwnerRetirement"
+    ],
+    "MatrixSpencer.KSArbitraryTransportContact": [
+      "MatrixSpencer.KSSafeRetirement",
+      "MatrixSpencer.KSLocalDescent"
+    ],
+    "MatrixSpencer.KSBalancedSpin": [
+      "MatrixSpencer.BalancedTransport",
+      "MatrixSpencer.KSFisher",
+      "MatrixSpencer.KSMovingOwnerHessian",
+      "Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Commute"
+    ],
+    "MatrixSpencer.KSCommonSource": [
+      "MatrixSpencer.KSSignSymmetry"
+    ],
+    "MatrixSpencer.KSCompactMinimum": [
+      "MatrixSpencer.KSStatement",
+      "Mathlib.Topology.Order.Compact",
+      "Mathlib.Data.Set.Finite.Lemmas",
+      "Mathlib.Topology.Instances.Real.Lemmas"
+    ],
+    "MatrixSpencer.KSEndpointCube": [
+      "MatrixSpencer.KSStatement",
+      "MatrixSpencer.KSCompactMinimum"
+    ],
+    "MatrixSpencer.KSEndpointRetirement": [
+      "MatrixSpencer.KSOwnerRetirement",
+      "MatrixSpencer.KSIndependentSource"
+    ],
+    "MatrixSpencer.KSFinalAssembly": [
+      "MatrixSpencer.KSStateRetirement",
+      "MatrixSpencer.KSInitialBounds"
+    ],
+    "MatrixSpencer.KSFisher": [
+      "MatrixSpencer.DyadicTraceInterpolation",
+      "MatrixSpencer.WeightedKraus"
+    ],
+    "MatrixSpencer.KSGlobalMinima": [
+      "MatrixSpencer.KSPotentialModels"
+    ],
+    "MatrixSpencer.KSIndependentSource": [
+      "MatrixSpencer.KSInitialBounds"
+    ],
+    "MatrixSpencer.KSInitialBounds": [
+      "MatrixSpencer.KSSpinSource",
+      "MatrixSpencer.KSVarianceBounds"
+    ],
+    "MatrixSpencer.KSLiveCurve": [
+      "MatrixSpencer.KSGlobalMinima"
+    ],
+    "MatrixSpencer.KSLocalDescent": [
+      "MatrixSpencer.CompactTaylor",
+      "Mathlib.Analysis.Calculus.LocalExtr.Basic"
+    ],
+    "MatrixSpencer.KSMovingOwnerHessian": [
+      "MatrixSpencer.JointOwnerResponse",
+      "MatrixSpencer.KSLocalDescent",
+      "MatrixSpencer.KSSafeRetirement"
+    ],
+    "MatrixSpencer.KSOwnerRetirement": [
+      "MatrixSpencer.KSSafeRetirement"
+    ],
+    "MatrixSpencer.KSPotentialModels": [
+      "MatrixSpencer.KSCommonSource",
+      "MatrixSpencer.KSEndpointCube"
+    ],
+    "MatrixSpencer.KSRankOne": [
+      "MatrixSpencer.Statement",
+      "MatrixSpencer.TraceGeometry",
+      "Mathlib.Analysis.InnerProductSpace.PiL2",
+      "Mathlib.Tactic"
+    ],
+    "MatrixSpencer.KSSafeRetirement": [
+      "MatrixSpencer.KSRankOne",
+      "MatrixSpencer.OwnerBounds",
+      "MatrixSpencer.OptimizerResponseUnrestricted"
+    ],
+    "MatrixSpencer.KSSignSymmetry": [
+      "MatrixSpencer.KSIndependentSource",
+      "MatrixSpencer.FidelityCompression"
+    ],
+    "MatrixSpencer.KSSpinActualDescent": [
+      "MatrixSpencer.KSBalancedSpin",
+      "MatrixSpencer.KSSpinDrift"
+    ],
+    "MatrixSpencer.KSSpinChosenRetirement": [
+      "MatrixSpencer.KSArbitraryRetirement",
+      "MatrixSpencer.KSStateRetirement"
+    ],
+    "MatrixSpencer.KSSpinCompression": [
+      "MatrixSpencer.KSSupportSymmetry",
+      "MatrixSpencer.KSSafeRetirement",
+      "MatrixSpencer.CovarianceSupport"
+    ],
+    "MatrixSpencer.KSSpinDrift": [
+      "MatrixSpencer.KSFisher",
+      "MatrixSpencer.KSWeightedProjection",
+      "MatrixSpencer.DensityDomain"
+    ],
+    "MatrixSpencer.KSSpinLiveSource": [
+      "MatrixSpencer.KSLiveCurve",
+      "MatrixSpencer.KSSpinChosenRetirement"
+    ],
+    "MatrixSpencer.KSSpinLocalState": [
+      "MatrixSpencer.KSSupportedCenterCurve",
+      "MatrixSpencer.KSSpinCompression",
+      "MatrixSpencer.KSStateRetirement"
+    ],
+    "MatrixSpencer.KSSpinMain": [
+      "MatrixSpencer.KSSpinVertex"
+    ],
+    "MatrixSpencer.KSSpinSource": [
+      "MatrixSpencer.KSRankOne",
+      "MatrixSpencer.SignedLift"
+    ],
+    "MatrixSpencer.KSSpinSymmetry": [
+      "MatrixSpencer.KSSignSymmetry"
+    ],
+    "MatrixSpencer.KSSpinVertex": [
+      "MatrixSpencer.KSSpinLocalState",
+      "MatrixSpencer.KSSpinLiveSource",
+      "MatrixSpencer.KSFinalAssembly"
+    ],
+    "MatrixSpencer.KSStateRetirement": [
+      "MatrixSpencer.KSGlobalMinima",
+      "MatrixSpencer.KSEndpointRetirement"
+    ],
+    "MatrixSpencer.KSStatement": [
+      "MatrixSpencer.Statement"
+    ],
+    "MatrixSpencer.KSSupportSymmetry": [
+      "MatrixSpencer.KSSpinSymmetry",
+      "MatrixSpencer.KrausReducedFamily"
+    ],
+    "MatrixSpencer.KSSupportedCenterCurve": [
+      "MatrixSpencer.KSSpinActualDescent",
+      "MatrixSpencer.KSArbitraryTransportContact"
+    ],
+    "MatrixSpencer.KSVarianceBounds": [
+      "MatrixSpencer.SignedLift"
+    ],
+    "MatrixSpencer.KSWeightedProjection": [
+      "MatrixSpencer.OwnerShort"
+    ],
+    "MatrixSpencer.KrausCompressionBridge": [
+      "MatrixSpencer.KrausSupport",
+      "MatrixSpencer.FidelityCompression",
+      "MatrixSpencer.DensityHessian"
+    ],
+    "MatrixSpencer.KrausReducedFamily": [
+      "MatrixSpencer.KrausCompressionBridge"
+    ],
+    "MatrixSpencer.KrausSupport": [
+      "MatrixSpencer.DensityPotential",
+      "Mathlib.Analysis.InnerProductSpace.Projection.FiniteDimensional",
+      "Mathlib.Analysis.InnerProductSpace.Positive"
+    ],
+    "MatrixSpencer.OptimizerResponse": [
+      "MatrixSpencer.DensityHessian",
+      "MatrixSpencer.DensityFaithfulness",
+      "Mathlib.Analysis.Convex.Deriv",
+      "Mathlib.Analysis.Calculus.Deriv.AffineMap"
+    ],
+    "MatrixSpencer.OptimizerResponseUnrestricted": [
+      "MatrixSpencer.OptimizerResponse",
+      "MatrixSpencer.SingularDensityCalculus"
+    ],
+    "MatrixSpencer.OwnerBounds": [
+      "MatrixSpencer.OwnerPotential",
+      "MatrixSpencer.CovarianceBounds",
+      "MatrixSpencer.FidelityBounds"
+    ],
+    "MatrixSpencer.OwnerPotential": [
+      "MatrixSpencer.CovarianceSource",
+      "MatrixSpencer.DensityFaithfulness"
+    ],
+    "MatrixSpencer.OwnerShort": [
+      "MatrixSpencer.TraceGeometry",
+      "Mathlib.Analysis.CStarAlgebra.Matrix",
+      "Mathlib.Analysis.InnerProductSpace.Projection.FiniteDimensional",
+      "Mathlib.LinearAlgebra.Trace",
+      "Mathlib.Tactic"
+    ],
+    "MatrixSpencer.RealCovarianceDomain": [
+      "MatrixSpencer.TsallisHessian"
+    ],
+    "MatrixSpencer.Realignment": [
+      "MatrixSpencer.TraceGeometry",
+      "Mathlib.Analysis.Matrix",
+      "Mathlib.Analysis.Complex.Norm",
+      "Mathlib.LinearAlgebra.Matrix.Trace",
+      "Mathlib.Algebra.BigOperators.Group.Finset.Sigma",
+      "Mathlib.Tactic.Ring"
+    ],
+    "MatrixSpencer.SignedLift": [
+      "MatrixSpencer.SpectralDensity",
+      "MatrixSpencer.OwnerBounds"
+    ],
+    "MatrixSpencer.SingularDensityCalculus": [
+      "MatrixSpencer.KrausCompressionBridge"
+    ],
+    "MatrixSpencer.SpectralDensity": [
+      "MatrixSpencer.DensityPotential"
+    ],
+    "MatrixSpencer.SqrtCompression": [
+      "Mathlib.Analysis.Matrix.Order",
+      "Mathlib.Analysis.CStarAlgebra.Matrix",
+      "Mathlib.Analysis.SpecialFunctions.ContinuousFunctionalCalculus.Rpow.IntegralRepresentation"
+    ],
+    "MatrixSpencer.SqrtContinuity": [
+      "Mathlib.Analysis.Matrix.Order",
+      "Mathlib.Analysis.CStarAlgebra.Matrix",
+      "Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Basic",
+      "Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Continuity",
+      "Mathlib.Analysis.SpecialFunctions.ContinuousFunctionalCalculus.Rpow.Basic"
+    ],
+    "MatrixSpencer.SqrtDerivative": [
+      "MatrixSpencer.Sylvester",
+      "Mathlib.Analysis.CStarAlgebra.Matrix",
+      "Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Order",
+      "Mathlib.Analysis.Calculus.InverseFunctionTheorem.FDeriv",
+      "Mathlib.Analysis.Calculus.InverseFunctionTheorem.ContDiff",
+      "Mathlib.Analysis.Calculus.FDeriv.Mul"
+    ],
+    "MatrixSpencer.Statement": [
+      "Mathlib.Analysis.CStarAlgebra.Matrix",
+      "Mathlib.LinearAlgebra.Matrix.Hermitian",
+      "Mathlib.Data.Real.Sqrt"
+    ],
+    "MatrixSpencer.Sylvester": [
+      "MatrixSpencer.TraceGeometry",
+      "Mathlib.Algebra.Algebra.Bilinear",
+      "Mathlib.Analysis.Matrix",
+      "Mathlib.Analysis.Normed.Module.FiniteDimension"
+    ],
+    "MatrixSpencer.TraceGeometry": [
+      "Mathlib.Analysis.Matrix.Order",
+      "Mathlib.Tactic.Linarith",
+      "Mathlib.Tactic.NoncommRing",
+      "Mathlib.Tactic.Ring"
+    ],
+    "MatrixSpencer.TraceSqrtConcavity": [
+      "MatrixSpencer.SqrtCompression",
+      "MatrixSpencer.DensityDomain",
+      "Mathlib.Analysis.Convex.Function",
+      "Mathlib.Tactic.Module"
+    ],
+    "MatrixSpencer.TransportDerivative": [
+      "MatrixSpencer.FidelityDerivative"
+    ],
+    "MatrixSpencer.TransportVariational": [
+      "MatrixSpencer.TraceGeometry"
+    ],
+    "MatrixSpencer.TsallisHessian": [
+      "MatrixSpencer.SqrtDerivative",
+      "Mathlib.Analysis.Calculus.FDeriv.Linear"
+    ],
+    "MatrixSpencer.WeightedKraus": [
+      "MatrixSpencer.Realignment",
+      "MatrixSpencer.ComplexGram"
+    ]
+  },
+  "original_verification": {
+    "status": "VERIFIED",
+    "finished_at": "2026-09-09T17:10:41.373228+00:00",
+    "receipt_name": "kadison_singer_complete_20260909",
+    "receipt_sha256": "fe694c89d38467d647d9b716a33c498bdf7642a8e80c074c6bff6fafeec01db4",
+    "scope": "Original workspace verification; standalone verification is reported separately."
+  },
+  "packaging_changes": [
+    "Proof modules and the included checkers/replay driver/configuration are byte-identical to verified originals.",
+    "MatrixSpencer.lean is a new single-route import wrapper.",
+    "run_lake.sh uses the installed Lake/elan instead of the original workspace-specific toolchain path.",
+    "README.md, verify.sh, .gitignore and this dependency/provenance manifest are packaging support."
+  ]
+}

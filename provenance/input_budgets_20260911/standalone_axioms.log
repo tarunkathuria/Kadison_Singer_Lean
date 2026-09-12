@@ -1,0 +1,19 @@
+'MatrixSpencer.KSManuscriptInputBudgetBounds.atomBudget_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MatrixSpencer.KSManuscriptInputBudgetBounds.slopeBudget_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MatrixSpencer.KSManuscriptInputBudgetBounds.spinBudget_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MatrixSpencer.KSManuscriptInputBudgetBounds.sourceBudget_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MatrixSpencer.KSManuscriptInputBudgetBounds.eighth_sourceCap_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'MatrixSpencer.KSManuscriptInputBudgetBounds.eighth_centerCap_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'MatrixSpencer.KSManuscriptInputBudgetBounds.eighth_directionCap_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'MatrixSpencer.KSManuscriptInputBudgetBounds.actual_centerRadius_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'MatrixSpencer.KSManuscriptInputBudgetBounds.actual_full_centerCap_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

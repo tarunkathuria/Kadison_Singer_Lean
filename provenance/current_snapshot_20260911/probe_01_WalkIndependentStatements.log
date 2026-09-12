@@ -1,0 +1,26 @@
+KS_WALK_FINAL_TYPE_CHECKED MatrixSpencer.KSExplicitWalkAlgorithm.output_sound
+KS_WALK_FINAL_TYPE_CHECKED MatrixSpencer.KSExplicitWalkAlgorithm.output_event_probability_ge
+KS_WALK_FINAL_TYPE_CHECKED MatrixSpencer.KSExplicitWalkAlgorithm.drawWeight_nonneg
+KS_WALK_FINAL_TYPE_CHECKED MatrixSpencer.KSExplicitWalkAlgorithm.drawWeight_sum
+KS_WALK_FINAL_TYPE_CHECKED MatrixSpencer.KSExplicitWalkAlgorithm.exists_full_signing
+KS_WALK_FINAL_TYPE_CHECKED MatrixSpencer.KSExplicitWeaver.output_sound
+KS_WALK_FINAL_TYPE_CHECKED MatrixSpencer.KSExplicitWeaver.output_event_probability_ge
+KS_WALK_FINAL_TYPE_CHECKED MatrixSpencer.KSExplicitWeaver.drawWeight_nonneg
+KS_WALK_FINAL_TYPE_CHECKED MatrixSpencer.KSExplicitWeaver.drawWeight_sum
+KS_WALK_FINAL_TYPE_CHECKED MatrixSpencer.KSExplicitWeaver.weaver_KS2
+KS_WALK_FINAL_AXIOMS_BEGIN
+'MatrixSpencer.KSExplicitWalkAlgorithm.output_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MatrixSpencer.KSExplicitWalkAlgorithm.output_event_probability_ge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'MatrixSpencer.KSExplicitWalkAlgorithm.drawWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MatrixSpencer.KSExplicitWalkAlgorithm.drawWeight_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MatrixSpencer.KSExplicitWalkAlgorithm.exists_full_signing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MatrixSpencer.KSExplicitWeaver.output_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MatrixSpencer.KSExplicitWeaver.output_event_probability_ge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MatrixSpencer.KSExplicitWeaver.drawWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MatrixSpencer.KSExplicitWeaver.drawWeight_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MatrixSpencer.KSExplicitWeaver.weaver_KS2' depends on axioms: [propext, Classical.choice, Quot.sound]
+KS_WALK_FINAL_AXIOMS_END
+KS_WALK_FINAL_INDEPENDENT_STATEMENTS_PASSED
+KS_WALK_PRIMITIVE_STATEMENTS_CHECKED

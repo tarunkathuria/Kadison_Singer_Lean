@@ -1,0 +1,3 @@
+'FullManuscriptWeaverPrimitive.full_weaver' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FullManuscriptWeaverPrimitive.full_returned_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FullManuscriptWeaverPrimitive.full_event' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,12 @@
+'MatrixSpencer.KSManuscriptScaleBounds.dimension_le_count_mul_epsilon' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'MatrixSpencer.KSManuscriptScaleBounds.one_le_count_mul_epsilon' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'MatrixSpencer.KSManuscriptScaleBounds.inverse_epsilon_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MatrixSpencer.KSManuscriptScaleBounds.epsilon_le_sqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MatrixSpencer.KSManuscriptScaleBounds.inverse_delta_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MatrixSpencer.KSManuscriptScaleBounds.inverse_regularizer_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,7 @@
+import MatrixSpencer.KSManuscriptScaleBounds
+#print axioms MatrixSpencer.KSManuscriptScaleBounds.dimension_le_count_mul_epsilon
+#print axioms MatrixSpencer.KSManuscriptScaleBounds.one_le_count_mul_epsilon
+#print axioms MatrixSpencer.KSManuscriptScaleBounds.inverse_epsilon_le
+#print axioms MatrixSpencer.KSManuscriptScaleBounds.epsilon_le_sqrt
+#print axioms MatrixSpencer.KSManuscriptScaleBounds.inverse_delta_le
+#print axioms MatrixSpencer.KSManuscriptScaleBounds.inverse_regularizer_le

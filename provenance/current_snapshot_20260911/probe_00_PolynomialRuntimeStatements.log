@@ -1,0 +1,387 @@
+theorem MatrixSpencer.KSFullPolynomialExplicit.algorithm : ∀ {N d : ℕ}
+  (P : MatrixSpencer.KSPolynomialConvexSolver.PolynomialSolver) (v : Fin N → Fin d → ℂ)
+  (hp : ∑ i, MatrixSpencer.KSRankOne.atom (v i) = 1) {ε : ℝ},
+  0 ≤ ε →
+    (∀ (i : Fin N), ‖MatrixSpencer.KSRankOne.atom (v i)‖ ≤ ε) →
+      ∀ (r : ℕ),
+        (∀ (z : MatrixSpencer.KSFullConvexOracleExplicit.Draws P.solver v hp r),
+            ∃ cost draws,
+              MatrixSpencer.KSFullPolynomialExplicit.Executes P v hp r z
+                  (MatrixSpencer.KSFullConvexOracleExplicit.output P.solver v hp r z) cost draws ∧
+                cost ≤ MatrixSpencer.KSFullPolynomialExplicit.totalCost P N d r ∧
+                  draws ≤ r * MatrixSpencer.KSConvexQueryBudgets.fullHorizon N d) ∧
+          (∀ (z : MatrixSpencer.KSFullConvexOracleExplicit.Draws P.solver v hp r) (σ : Fin N → ℝ),
+              MatrixSpencer.KSFullConvexOracleExplicit.output P.solver v hp r z = some σ →
+                (∀ (i : Fin N), MatrixSpencer.IsSign (σ i)) ∧
+                  ‖∑ i, σ i • MatrixSpencer.KSRankOne.atom (v i)‖ ≤ 9 * (16 * √2 + 5) * √ε) ∧
+            1 - (15 / 56) ^ r ≤
+              ∑ z,
+                MatrixSpencer.KSFullConvexOracleExplicit.drawWeight P.solver v hp r z *
+                  if (MatrixSpencer.KSFullConvexOracleExplicit.output P.solver v hp r z).isSome = true then 1 else 0 :=
+fun {N d} P v hp {ε} hε hsize r =>
+  ⟨MatrixSpencer.KSFullPolynomialExplicit.exists_execution_bounded P v hp r,
+    ⟨fun z σ hout => MatrixSpencer.KSFullConvexOracleExplicit.output_sound P.solver v hp hε hsize r z σ hout,
+      MatrixSpencer.KSFullConvexOracleExplicit.output_event_probability_ge P.solver v hp r⟩⟩
+theorem MatrixSpencer.KSFullRuntimePolynomialCertificate.totalCost_polynomial : ∀
+  (P : MatrixSpencer.KSPolynomialConvexSolver.PolynomialSolver),
+  ∃ p, ∀ (N d r : ℕ), (MvPolynomial.eval ![N, d, r]) p = MatrixSpencer.KSFullPolynomialExplicit.totalCost P N d r :=
+fun P =>
+  id
+    (id
+      (id
+        (id
+          (id
+            (id
+              (id
+                (id
+                  (id
+                    (id
+                      (id
+                        (id
+                          (id
+                            (id
+                              (id
+                                (id
+                                  (id
+                                    (id
+                                      (id
+                                        (id
+                                          (id
+                                            (id
+                                              (id
+                                                (id
+                                                  (id
+                                                    (id
+                                                      (id
+                                                        (id
+                                                          (id
+                                                            (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                              (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                  (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                    (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                      (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                        (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                          (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                            100000)
+                                                                          (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                            (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                              (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                10000400)
+                                                                              (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.labels
+                                                                                (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                  1)))
+                                                                            (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                              MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.dimension
+                                                                              (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                1))))
+                                                                        (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                          (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                            8)
+                                                                          (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                            (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                              (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                                (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                  256)
+                                                                                (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.pow
+                                                                                  MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.labels
+                                                                                  3))
+                                                                              (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                                (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                                  (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                    100)
+                                                                                  (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.pow
+                                                                                    MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.labels
+                                                                                    3))
+                                                                                (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.pow
+                                                                                  (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                                    (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                      100000)
+                                                                                    (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                      (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                        MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.labels
+                                                                                        MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.dimension)
+                                                                                      (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                        1)))
+                                                                                  275)))
+                                                                            (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                              1))))
+                                                                      (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                        30))
+                                                                    (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                      MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.retries
+                                                                      (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                        (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                          (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                            (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                              (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                  (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                                    (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                                      (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                        6)
+                                                                                      (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.pow
+                                                                                        (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                          MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.labels
+                                                                                          (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                            1))
+                                                                                        3))
+                                                                                    (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                      (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                        (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                          (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                            (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                                              (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                                                (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                                  10000)
+                                                                                                (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.pow
+                                                                                                  (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                                    MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.labels
+                                                                                                    (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                                      1))
+                                                                                                  2))
+                                                                                              (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.pow
+                                                                                                (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                                  MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.dimension
+                                                                                                  (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                                    1))
+                                                                                                2))
+                                                                                            (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                              (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                                                (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                                  2)
+                                                                                                (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                                  (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                                                    (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                                                      ⋯ ⋯)
+                                                                                                    (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                                      ⋯
+                                                                                                      (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                                        3)))
+                                                                                                  (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                                                    (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                                      ⋯
+                                                                                                      (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                                        1))
+                                                                                                    (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                                      ⋯
+                                                                                                      (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                                        1)))))
+                                                                                              (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                                                (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                                  100)
+                                                                                                (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.pow
+                                                                                                  (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                                    (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                                      (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                                                        MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.labels
+                                                                                                        (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                                          4))
+                                                                                                      (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                                        MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.dimension
+                                                                                                        MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.dimension))
+                                                                                                    (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                                      1))
+                                                                                                  4))))
+                                                                                          (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                                            (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                              P.coefficient)
+                                                                                            (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.pow
+                                                                                              (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                                (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                                  (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                                    (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                                      ⋯ ⋯)
+                                                                                                    (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                                      2))
+                                                                                                  (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                                    (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                                      ⋯ ⋯)
+                                                                                                    (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                                      1)))
+                                                                                                (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                                  1))
+                                                                                              P.degree)))
+                                                                                        (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                          4))
+                                                                                      (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                        20)))
+                                                                                  (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                    2))
+                                                                                (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                  (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                    (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                                      (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                        (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                          (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                                            (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                              256)
+                                                                                            (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.pow
+                                                                                              MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.labels
+                                                                                              3))
+                                                                                          (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                                            (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                                              (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                                100)
+                                                                                              (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.pow
+                                                                                                MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.labels
+                                                                                                3))
+                                                                                            (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.pow
+                                                                                              (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                                                (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                                  100000)
+                                                                                                (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                                  (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                                    MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.labels
+                                                                                                    MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.dimension)
+                                                                                                  (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                                    1)))
+                                                                                              275)))
+                                                                                        (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                          1))
+                                                                                      (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                        (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                          (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                            (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                                              (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                                15)
+                                                                                              MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.labels)
+                                                                                            (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                              2))
+                                                                                          (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                                            (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                                              (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                                2000)
+                                                                                              (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.pow
+                                                                                                (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                                  MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.labels
+                                                                                                  (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                                    1))
+                                                                                                4))
+                                                                                            (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                              (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                                (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                                  (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                                    (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                                      ⋯ ⋯)
+                                                                                                    (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                                                      (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                                        P.coefficient)
+                                                                                                      ⋯))
+                                                                                                  (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                                    4))
+                                                                                                (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                                  (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                                                    (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                                                      ⋯ ⋯)
+                                                                                                    (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.pow
+                                                                                                      ⋯ 2))
+                                                                                                  (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                                    1)))
+                                                                                              (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                                20))))
+                                                                                        (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                          3)))
+                                                                                    (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                      (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                                        (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                          15)
+                                                                                        MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.labels)
+                                                                                      (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                        2)))
+                                                                                  (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                    2)))
+                                                                              (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                1))
+                                                                            (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                              (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                  (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                                    (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                                      (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                        100)
+                                                                                      (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                        MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.labels
+                                                                                        (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                          1)))
+                                                                                    (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.pow
+                                                                                      (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                        MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.dimension
+                                                                                        (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                          1))
+                                                                                      2))
+                                                                                  (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                                    (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                                      (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                        700)
+                                                                                      (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                        (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                          (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                                            (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                                              (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                                                (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                                  (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.pow
+                                                                                                    (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                                      MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.dimension
+                                                                                                      MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.dimension)
+                                                                                                    2)
+                                                                                                  (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                                    1))
+                                                                                                (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.pow
+                                                                                                  (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                                    MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.dimension
+                                                                                                    MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.dimension)
+                                                                                                  2))
+                                                                                              (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.pow
+                                                                                                MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.labels
+                                                                                                2))
+                                                                                            (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.pow
+                                                                                              (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                                                (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                                  4)
+                                                                                                MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.labels)
+                                                                                              2))
+                                                                                          (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                            1))
+                                                                                        (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                          1)))
+                                                                                    (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.pow
+                                                                                      (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                        (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                                          MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.dimension
+                                                                                          MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.dimension)
+                                                                                        (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                          1))
+                                                                                      3)))
+                                                                                (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                                  (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                    12)
+                                                                                  MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.labels))
+                                                                              (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                20)))
+                                                                          (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.add
+                                                                            (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                              (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                                3)
+                                                                              MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.labels)
+                                                                            (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                              1)))
+                                                                        (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                          3))))
+                                                                  (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                    3))
+                                                                (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.mul
+                                                                  (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                    3)
+                                                                  MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.labels))
+                                                              (MatrixSpencer.KSRuntimePolynomialRepresentation.Represented.constant
+                                                                10))))))))))))))))))))))))))))))
+'MatrixSpencer.KSFullPolynomialExplicit.algorithm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MatrixSpencer.KSFullPolynomialExplicit.execution_result' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MatrixSpencer.KSFullPolynomialExplicit.exists_execution_bounded' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'MatrixSpencer.KSFullRuntimePolynomialCertificate.totalCost_polynomial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

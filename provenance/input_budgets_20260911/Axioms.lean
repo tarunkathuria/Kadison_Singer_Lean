@@ -1,0 +1,10 @@
+import MatrixSpencer.KSManuscriptInputBudgetBounds
+#print axioms MatrixSpencer.KSManuscriptInputBudgetBounds.atomBudget_le
+#print axioms MatrixSpencer.KSManuscriptInputBudgetBounds.slopeBudget_le
+#print axioms MatrixSpencer.KSManuscriptInputBudgetBounds.spinBudget_le
+#print axioms MatrixSpencer.KSManuscriptInputBudgetBounds.sourceBudget_le
+#print axioms MatrixSpencer.KSManuscriptInputBudgetBounds.eighth_sourceCap_le
+#print axioms MatrixSpencer.KSManuscriptInputBudgetBounds.eighth_centerCap_le
+#print axioms MatrixSpencer.KSManuscriptInputBudgetBounds.eighth_directionCap_le
+#print axioms MatrixSpencer.KSManuscriptInputBudgetBounds.actual_centerRadius_le
+#print axioms MatrixSpencer.KSManuscriptInputBudgetBounds.actual_full_centerCap_le

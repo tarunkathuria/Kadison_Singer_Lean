@@ -1,0 +1,764 @@
+REPLAY_BASE_EXTERNAL_ONLY: 4859 external modules; 10355 project declarations to replay
+REPLAYED MatrixSpencer: 0 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.BalancedTransport: 33 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.BalancedTransport: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.CoefficientSupportFrame: 50 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.CoefficientSupportFrame: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.CompactTaylor: 14 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.CompactTaylor: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.ComplexGram: 14 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.ComplexGram: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.CovarianceBounds: 7 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.CovarianceBounds: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.CovarianceCalculus: 87 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.CovarianceCalculus: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.CovarianceCompactChart: 31 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.CovarianceCompactChart: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.CovarianceFace: 31 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.CovarianceFace: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.CovarianceFaceDomination: 6 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.CovarianceFaceDomination: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.CovarianceMovement: 9 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.CovarianceMovement: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.CovariancePreparation: 20 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.CovariancePreparation: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.CovarianceResponse: 62 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.CovarianceResponse: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.CovarianceSampler: 31 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.CovarianceSampler: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.CovarianceSource: 27 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.CovarianceSource: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.CovarianceSupport: 25 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.CovarianceSupport: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.DensityDomain: 21 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.DensityDomain: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.DensityFaithfulness: 7 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.DensityFaithfulness: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.DensityHessian: 94 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.DensityHessian: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.DensityPotential: 28 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.DensityPotential: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.DyadicRoot: 39 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.DyadicRoot: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.DyadicTraceInterpolation: 18 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.DyadicTraceInterpolation: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.FidelityBounds: 5 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.FidelityBounds: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.FidelityCompression: 6 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.FidelityCompression: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.FidelityContinuity: 13 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.FidelityContinuity: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.FidelityDerivative: 28 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.FidelityDerivative: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.FidelityHessian: 46 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.FidelityHessian: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.FiniteBranchingTermination: 119 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.FiniteBranchingTermination: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.FiniteProcessMoments: 80 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.FiniteProcessMoments: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.FiniteSelection: 11 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.FiniteSelection: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.GeneralizedSylvester: 31 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.GeneralizedSylvester: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.InverseComparison: 46 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.InverseComparison: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.JointOwnerResponse: 40 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.JointOwnerResponse: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSAccretiveProductDomain: 16 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSAccretiveProductDomain: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSActualEnvelope: 77 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSActualEnvelope: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSArbitraryRetirement: 5 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSArbitraryRetirement: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSArbitraryTransportContact: 12 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSArbitraryTransportContact: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSBalancedSpin: 64 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSBalancedSpin: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSCauchyDerivatives: 39 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSCauchyDerivatives: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSCauchyRealBridge: 6 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSCauchyRealBridge: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSCommonSource: 14 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSCommonSource: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSCompactMinimum: 3 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSCompactMinimum: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSCompactResolvent: 60 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSCompactResolvent: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSCompactTraceRoots: 11 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSCompactTraceRoots: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSComplexCompressionBounds: 9 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSComplexCompressionBounds: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSComplexEnvelopeChart: 18 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSComplexEnvelopeChart: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSComplexMatrixProjection: 23 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSComplexMatrixProjection: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSComplexNorm: 24 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSComplexNorm: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSComplexObjectiveBound: 7 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSComplexObjectiveBound: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSComplexOwnerObjective: 41 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSComplexOwnerObjective: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSComplexOwnerPerturbation: 55 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSComplexOwnerPerturbation: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSComplexOwnerValueBound: 6 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSComplexOwnerValueBound: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSComplexPerturbationRadius: 9 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSComplexPerturbationRadius: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSComplexPolynomialBounds: 14 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSComplexPolynomialBounds: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSComplexProjectionGeometry: 62 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSComplexProjectionGeometry: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSComplexRelativeSource: 27 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSComplexRelativeSource: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSComplexRootTraceBound: 4 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSComplexRootTraceBound: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSComplexSpinDomain: 35 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSComplexSpinDomain: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSComplexSpinSource: 30 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSComplexSpinSource: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSComplexTraceBounds: 14 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSComplexTraceBounds: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSComplexTraceDomain: 23 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSComplexTraceDomain: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSComplexTraceObjective: 32 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSComplexTraceObjective: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSComplexTraceSource: 25 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSComplexTraceSource: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSComplexTraceSqrt: 24 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSComplexTraceSqrt: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSComplexTraceValueBound: 6 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSComplexTraceValueBound: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSControllerParameters: 19 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSControllerParameters: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSConvexQueryBudgets: 29 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSConvexQueryBudgets: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSConvexValueOracle: 30 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSConvexValueOracle: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSCoordinateProjection: 28 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSCoordinateProjection: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSCountedRetry: 28 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSCountedRetry: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSCubeEntropy: 33 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSCubeEntropy: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSCubeEntropyMovement: 7 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSCubeEntropyMovement: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSCubePreparation: 18 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSCubePreparation: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSDebitActualRetirement: 18 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSDebitActualRetirement: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSDebitBudget: 18 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSDebitBudget: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSDebitCenter: 15 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSDebitCenter: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSDebitEntropyRun: 9 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSDebitEntropyRun: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSDebitFaceSmoothness: 19 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSDebitFaceSmoothness: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSDebitFullRetirement: 10 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSDebitFullRetirement: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSDebitHessian: 7 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSDebitHessian: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSDebitHessianQueries: 16 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSDebitHessianQueries: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSDebitInputAlgorithm: 21 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSDebitInputAlgorithm: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSDebitLiveHessian: 13 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSDebitLiveHessian: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSDebitLocalState: 7 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSDebitLocalState: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSDebitMovement: 16 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSDebitMovement: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSDebitNumericalController: 10 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSDebitNumericalController: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSDebitNumericalDrift: 26 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSDebitNumericalDrift: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSDebitNumericalValue: 16 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSDebitNumericalValue: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSDebitPotential: 14 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSDebitPotential: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSDebitPreparation: 18 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSDebitPreparation: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSDebitPreparedCurvature: 7 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSDebitPreparedCurvature: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSDebitPreparedMargin: 10 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSDebitPreparedMargin: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSDebitRetirement: 6 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSDebitRetirement: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSDebitSmoothness: 24 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSDebitSmoothness: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSDebitTaylorAlgorithm: 6 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSDebitTaylorAlgorithm: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSDebitUniformFloor: 30 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSDebitUniformFloor: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSDebitWalkAcceptance: 13 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSDebitWalkAcceptance: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSDebitWalkQuality: 44 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSDebitWalkQuality: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSDebitWalkRetry: 51 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSDebitWalkRetry: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSDebitWalkRun: 83 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSDebitWalkRun: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthActualRetirement: 3 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthActualRetirement: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthActualState: 26 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthActualState: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthAnalyticCurve: 19 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthAnalyticCurve: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthBalanced: 61 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthBalanced: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthBlocks: 37 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthBlocks: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthComparison: 44 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthComparison: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthCompletion: 53 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthCompletion: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthFacePotential: 35 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthFacePotential: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthFullSupport: 10 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthFullSupport: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthHessian: 4 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthHessian: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthHessianQueries: 27 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthHessianQueries: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthInertia: 36 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthInertia: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthInputTaylorBound: 21 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthInputTaylorBound: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthJointBoundPoint: 21 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthJointBoundPoint: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthLiveCoordinates: 36 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthLiveCoordinates: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthLiveEnumeration: 24 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthLiveEnumeration: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthLiveSource: 8 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthLiveSource: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthLocalState: 13 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthLocalState: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthManuscriptAcceptance: 27 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthManuscriptAcceptance: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthManuscriptAlgorithm: 18 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthManuscriptAlgorithm: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthManuscriptBranchingDrift: 12 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthManuscriptBranchingDrift: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthManuscriptBranchingRun: 30 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthManuscriptBranchingRun: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthManuscriptBudgets: 25 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthManuscriptBudgets: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthManuscriptCappedSimplex: 62 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthManuscriptCappedSimplex: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthManuscriptComparator: 2 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthManuscriptComparator: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthManuscriptContact: 4 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthManuscriptContact: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthManuscriptControllerDrift: 6 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthManuscriptControllerDrift: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthManuscriptCovariance: 19 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthManuscriptCovariance: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthManuscriptDrift: 11 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthManuscriptDrift: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthManuscriptDriftGeometry: 8 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthManuscriptDriftGeometry: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthManuscriptExplicit: 33 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthManuscriptExplicit: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthManuscriptHessianReport: 9 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthManuscriptHessianReport: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthManuscriptInertia: 4 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthManuscriptInertia: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthManuscriptLDL: 55 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthManuscriptLDL: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthManuscriptMatrixProjection: 22 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthManuscriptMatrixProjection: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthManuscriptMovement: 20 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthManuscriptMovement: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthManuscriptNormalizedSampler: 23 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthManuscriptNormalizedSampler: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthManuscriptParameters: 26 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthManuscriptParameters: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthManuscriptPreparationCost: 7 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthManuscriptPreparationCost: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthManuscriptPreparedInertia: 10 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthManuscriptPreparedInertia: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthManuscriptPreprocess: 43 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthManuscriptPreprocess: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthManuscriptQuality: 15 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthManuscriptQuality: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthManuscriptRetry: 44 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthManuscriptRetry: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthManuscriptRetryCost: 15 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthManuscriptRetryCost: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthManuscriptRun: 55 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthManuscriptRun: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthManuscriptSampler: 22 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthManuscriptSampler: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthNegativeRayleigh: 10 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthNegativeRayleigh: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthNumericalValue: 16 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthNumericalValue: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthPhysicalDescent: 1 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthPhysicalDescent: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthPreparationCost: 29 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthPreparationCost: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthPreparedHessian: 5 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthPreparedHessian: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthPreparedState: 9 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthPreparedState: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthRetirementLoop: 53 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthRetirementLoop: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthSmoothness: 23 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthSmoothness: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthSupport: 16 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthSupport: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthTraceSource: 18 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthTraceSource: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEighthWalkRun: 85 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEighthWalkRun: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEndpointCube: 22 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEndpointCube: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEndpointRetirement: 23 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEndpointRetirement: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSEnvelopeFourth: 59 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSEnvelopeFourth: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSExplicitWalkAlgorithm: 22 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSExplicitWalkAlgorithm: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSExplicitWeaver: 56 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSExplicitWeaver: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFidelityUpper: 11 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFidelityUpper: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFinalAssembly: 27 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFinalAssembly: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFiniteCoinRun: 34 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFiniteCoinRun: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFiniteDifference: 19 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFiniteDifference: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFirstDifference: 27 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFirstDifference: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFisher: 47 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFisher: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFourthDifference: 26 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFourthDifference: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFrobeniusTangent: 49 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFrobeniusTangent: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullConvexOracleAlgorithm: 20 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullConvexOracleAlgorithm: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullConvexOracleController: 12 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullConvexOracleController: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullConvexOracleDrift: 7 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullConvexOracleDrift: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullConvexOracleExplicit: 36 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullConvexOracleExplicit: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullConvexOracleQueries: 12 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullConvexOracleQueries: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullConvexOracleRayleigh: 6 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullConvexOracleRayleigh: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullConvexOracleReportBounds: 3 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullConvexOracleReportBounds: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullConvexOracleValue: 16 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullConvexOracleValue: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullConvexRuntime: 92 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullConvexRuntime: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullHermitianChart: 53 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullHermitianChart: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptAcceptance: 17 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptAcceptance: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptAffineData: 28 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptAffineData: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptAffineInnerBall: 11 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptAffineInnerBall: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptAffineObjective: 19 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptAffineObjective: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptAffinePSD: 39 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptAffinePSD: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptAlgorithm: 20 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptAlgorithm: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptBisection: 43 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptBisection: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptBlockBounds: 11 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptBlockBounds: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptCenterData: 11 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptCenterData: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptCenterMargin: 6 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptCenterMargin: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptController: 14 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptController: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptCoordinateBounds: 10 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptCoordinateBounds: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptDebitValue: 15 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptDebitValue: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptDiagonalValue: 8 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptDiagonalValue: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptDrift: 6 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptDrift: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptEllipsoid: 22 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptEllipsoid: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptEllipsoidAffine: 47 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptEllipsoidAffine: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptEllipsoidCutoff: 20 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptEllipsoidCutoff: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptEllipsoidFactor: 18 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptEllipsoidFactor: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptEllipsoidMeasure: 28 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptEllipsoidMeasure: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptEllipsoidRun: 38 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptEllipsoidRun: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptEllipsoidVolume: 14 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptEllipsoidVolume: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptExplicit: 36 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptExplicit: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptFaceSmoothness: 19 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptFaceSmoothness: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptFidelityBlock: 13 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptFidelityBlock: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptFidelityBlockUpper: 6 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptFidelityBlockUpper: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptHermitianCoordinates: 19 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptHermitianCoordinates: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptHessian: 17 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptHessian: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptJointPoint: 5 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptJointPoint: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptLevelBall: 27 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptLevelBall: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptLiveCoordinates: 38 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptLiveCoordinates: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptOracleGeometry: 14 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptOracleGeometry: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptPSDAlgebra: 22 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptPSDAlgebra: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptPSDSeparation: 29 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptPSDSeparation: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptParameters: 54 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptParameters: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptProgramSize: 14 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptProgramSize: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptQueries: 12 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptQueries: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptRayleigh: 6 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptRayleigh: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptRegularizationBias: 22 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptRegularizationBias: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptRegularizedSDP: 10 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptRegularizedSDP: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptSDPBlockPencil: 20 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptSDPBlockPencil: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptSDPCoordinateInverse: 2 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptSDPCoordinateInverse: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptSDPCoordinates: 19 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptSDPCoordinates: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptSDPIdentity: 22 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptSDPIdentity: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptSourceCap: 12 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptSourceCap: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptStrictFeasible: 13 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptStrictFeasible: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptSuperlevel: 11 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptSuperlevel: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptTaylor: 11 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptTaylor: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptTraceCoordinates: 21 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptTraceCoordinates: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptValueOracle: 13 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptValueOracle: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptWalkBudget: 2 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptWalkBudget: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptWeakOptimization: 11 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptWeakOptimization: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullManuscriptWeaver: 15 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullManuscriptWeaver: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullPolynomialAlgorithmRuntime: 17 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullPolynomialAlgorithmRuntime: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullPolynomialExplicit: 16 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullPolynomialExplicit: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullPolynomialOracleReport: 16 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullPolynomialOracleReport: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullPolynomialWalkRuntime: 23 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullPolynomialWalkRuntime: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSFullRuntimePolynomialCertificate: 1 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSFullRuntimePolynomialCertificate: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSGlobalMinima: 14 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSGlobalMinima: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSGradientQueryGeometry: 12 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSGradientQueryGeometry: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSHermitianDirections: 13 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSHermitianDirections: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSHermitianGradientReport: 24 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSHermitianGradientReport: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSHessianContact: 5 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSHessianContact: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSHolomorphicFidelity: 15 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSHolomorphicFidelity: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSIndependentSource: 12 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSIndependentSource: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSIndependentTransportCurve: 6 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSIndependentTransportCurve: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSInexactIteration: 27 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSInexactIteration: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSInitialBounds: 25 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSInitialBounds: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSInputJointBounds: 39 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSInputJointBounds: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSJacobiIteration: 78 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSJacobiIteration: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSJacobiMatrixProjection: 43 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSJacobiMatrixProjection: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSJacobiMatrixSqrt: 20 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSJacobiMatrixSqrt: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSJacobiNorm: 14 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSJacobiNorm: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSJacobiPolynomialBounds: 33 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSJacobiPolynomialBounds: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSJacobiRayleigh: 35 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSJacobiRayleigh: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSJacobiRotation: 31 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSJacobiRotation: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSJacobiStep: 39 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSJacobiStep: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSJacobiTraceSqrt: 26 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSJacobiTraceSqrt: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSJointBoundParameters: 11 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSJointBoundParameters: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSJointBoundsToTaylor: 32 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSJointBoundsToTaylor: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSJointInputAlgorithm: 10 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSJointInputAlgorithm: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSLiveCurve: 26 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSLiveCurve: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSLiveEnumeration: 23 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSLiveEnumeration: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSLocalDescent: 1 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSLocalDescent: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSManuscriptInputBudgetBounds: 30 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSManuscriptInputBudgetBounds: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSManuscriptInputPolynomialParameters: 26 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSManuscriptInputPolynomialParameters: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSManuscriptPolynomialParameters: 29 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSManuscriptPolynomialParameters: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSManuscriptPolynomialTaylorBounds: 21 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSManuscriptPolynomialTaylorBounds: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSManuscriptReportMagnitudeBounds: 17 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSManuscriptReportMagnitudeBounds: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSManuscriptScaleBounds: 6 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSManuscriptScaleBounds: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSManuscriptWeaverTools: 25 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSManuscriptWeaverTools: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSMatrixEntryAccuracy: 7 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSMatrixEntryAccuracy: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSMovingOwnerHessian: 49 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSMovingOwnerHessian: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSNumericalDensityRun: 22 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSNumericalDensityRun: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSNumericalFidelity: 34 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSNumericalFidelity: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSNumericalGradient: 23 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSNumericalGradient: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSNumericalHessian: 27 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSNumericalHessian: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSNumericalOwnerObjective: 6 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSNumericalOwnerObjective: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSNumericalOwnerPotential: 14 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSNumericalOwnerPotential: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSObjectiveChart: 16 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSObjectiveChart: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSObjectiveCurvature: 12 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSObjectiveCurvature: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSObjectiveUpper: 21 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSObjectiveUpper: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSObjectiveValueBound: 28 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSObjectiveValueBound: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSOnlinePathRuntime: 44 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSOnlinePathRuntime: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSOptimizerFloor: 25 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSOptimizerFloor: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSOptimizerParameters: 32 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSOptimizerParameters: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSOwnerInputBounds: 20 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSOwnerInputBounds: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSOwnerOptimizerDomain: 26 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSOwnerOptimizerDomain: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSOwnerReindex: 17 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSOwnerReindex: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSOwnerRelativeSource: 37 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSOwnerRelativeSource: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSOwnerRetirement: 9 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSOwnerRetirement: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSPolynomialConvexSolver: 25 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSPolynomialConvexSolver: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSPotentialModels: 19 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSPotentialModels: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSPreparedHessianRayleigh: 5 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSPreparedHessianRayleigh: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSPreparedNegativeCurvature: 2 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSPreparedNegativeCurvature: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSProjectedContraction: 17 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSProjectedContraction: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSRankOne: 24 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSRankOne: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSRationalTraceRoots: 11 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSRationalTraceRoots: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSRayleighAccuracy: 20 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSRayleighAccuracy: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSRetirementRuntime: 107 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSRetirementRuntime: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSRuntimePolynomialRepresentation: 10 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSRuntimePolynomialRepresentation: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSSafeRetirement: 36 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSSafeRetirement: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSScalarHolomorphicRoot: 15 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSScalarHolomorphicRoot: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSScalarRootIntegral: 18 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSScalarRootIntegral: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSSignSymmetry: 24 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSSignSymmetry: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSSimplexProjection: 34 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSSimplexProjection: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSSpinActualDescent: 13 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSSpinActualDescent: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSSpinChosenRetirement: 5 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSSpinChosenRetirement: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSSpinCompression: 22 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSSpinCompression: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSSpinDrift: 107 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSSpinDrift: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSSpinLiveSource: 6 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSSpinLiveSource: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSSpinLocalState: 20 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSSpinLocalState: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSSpinMain: 1 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSSpinMain: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSSpinSource: 34 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSSpinSource: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSSpinSymmetry: 6 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSSpinSymmetry: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSSpinVertex: 4 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSSpinVertex: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSStateRetirement: 23 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSStateRetirement: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSStatement: 10 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSStatement: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSStencilMagnitudeBounds: 4 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSStencilMagnitudeBounds: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSStencilMatrixBounds: 9 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSStencilMatrixBounds: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSStoppedProgress: 25 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSStoppedProgress: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSSupportSymmetry: 17 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSSupportSymmetry: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSSupportedCenterCurve: 37 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSSupportedCenterCurve: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSSupportedHessian: 4 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSSupportedHessian: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSSylvesterOrder: 10 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSSylvesterOrder: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSSymmetricProgress: 44 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSSymmetricProgress: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSTaylorBudget: 10 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSTaylorBudget: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSVarianceBounds: 7 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSVarianceBounds: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSWeightedLiveCoordinates: 36 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSWeightedLiveCoordinates: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSWeightedNegativeCurvature: 7 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSWeightedNegativeCurvature: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KSWeightedProjection: 47 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KSWeightedProjection: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KrausCompressionBridge: 40 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KrausCompressionBridge: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KrausContraction: 17 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KrausContraction: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KrausReducedFamily: 16 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KrausReducedFamily: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.KrausSupport: 40 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.KrausSupport: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.OptimizerResponse: 71 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.OptimizerResponse: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.OptimizerResponseUnrestricted: 47 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.OptimizerResponseUnrestricted: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.OwnerBounds: 23 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.OwnerBounds: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.OwnerPotential: 19 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.OwnerPotential: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.OwnerSDPProgramSize: 25 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.OwnerSDPProgramSize: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.OwnerShort: 42 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.OwnerShort: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.PositiveCovarianceSampler: 8 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.PositiveCovarianceSampler: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.RealCovarianceDomain: 2 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.RealCovarianceDomain: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.RealRAMCeiling: 72 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.RealRAMCeiling: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.RealRAMCircuit: 143 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.RealRAMCircuit: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.RealRAMComplexArithmetic: 76 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.RealRAMComplexArithmetic: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.RealRAMFullHessian: 39 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.RealRAMFullHessian: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.RealRAMJacobiIteration: 163 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.RealRAMJacobiIteration: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.RealRAMJacobiRayleigh: 73 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.RealRAMJacobiRayleigh: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.RealRAMJacobiRotation: 70 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.RealRAMJacobiRotation: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.RealRAMKSFullStateData: 109 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.RealRAMKSFullStateData: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.RealRAMKSHorizonSetup: 18 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.RealRAMKSHorizonSetup: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.RealRAMKSInputSetup: 108 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.RealRAMKSInputSetup: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.RealRAMKSLiveCoordinates: 56 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.RealRAMKSLiveCoordinates: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.RealRAMKSLoopCapSetup: 163 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.RealRAMKSLoopCapSetup: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.RealRAMKSNormReport: 86 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.RealRAMKSNormReport: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.RealRAMKSParameterSetup: 182 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.RealRAMKSParameterSetup: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.RealRAMLinearAlgebra: 22 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.RealRAMLinearAlgebra: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.RealRAMOwnerSDPBlocks: 44 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.RealRAMOwnerSDPBlocks: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.RealRAMOwnerSDPPolynomialCost: 14 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.RealRAMOwnerSDPPolynomialCost: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.RealRAMOwnerSDPSetup: 106 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.RealRAMOwnerSDPSetup: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.RealRAMPositiveFormula: 87 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.RealRAMPositiveFormula: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.RealRAMProgram: 119 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.RealRAMProgram: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.RealRAMSDPChart: 40 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.RealRAMSDPChart: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.Realignment: 22 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.Realignment: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.SignedLift: 26 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.SignedLift: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.SingularDensityCalculus: 40 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.SingularDensityCalculus: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.SpectralDensity: 5 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.SpectralDensity: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.SqrtCompression: 4 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.SqrtCompression: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.SqrtContinuity: 4 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.SqrtContinuity: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.SqrtDerivative: 49 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.SqrtDerivative: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.Statement: 33 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.Statement: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.SuperoperatorCoordinates: 31 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.SuperoperatorCoordinates: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.SupportShaving: 20 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.SupportShaving: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.Sylvester: 39 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.Sylvester: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.TraceGeometry: 21 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.TraceGeometry: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.TraceSqrtConcavity: 9 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.TraceSqrtConcavity: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.TransportDerivative: 15 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.TransportDerivative: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.TransportVariational: 33 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.TransportVariational: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.TsallisHessian: 100 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.TsallisHessian: only allowed standard dependencies across all local declarations
+REPLAYED MatrixSpencer.WeightedKraus: 9 local declarations loaded; safe nonpartial declarations checked from external base
+PROJECT_AXIOMS_CHECKED MatrixSpencer.WeightedKraus: only allowed standard dependencies across all local declarations
+PROJECT_CLOSURE_REPLAYED: 381 project modules from an external-only base
